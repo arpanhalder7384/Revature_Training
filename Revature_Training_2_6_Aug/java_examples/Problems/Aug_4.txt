@@ -1,7 +1,0 @@
-Task - 1) Explore on methods like wait,notify,notifyAll
-//       2) Explore on why wait,notify and notifyAll are in Object class not Thread class
-//       3) Explore and implement on Producer - Consumer Problem with Threads.
-
-
-Tasks - 1)Arrange the sentence by words with the word which is having highest vowel count first and followed by rest, if two or more words have same vowel count then arrange it reverse alphabetical order
- * 2)Same as task1 but you should only count unique vowel count i.e if a word is having aeeeeee like that so that count of vowel is 2 not 8

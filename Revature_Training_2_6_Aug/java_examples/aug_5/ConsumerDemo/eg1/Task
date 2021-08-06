@@ -1,0 +1,8 @@
+Task 1 - Find the minimum price in 'Xyz Travels'
+	// Task 2 - Calculate total and print bill.
+	//          Item Name          Price    Qty.    Line Total
+	//          Line Total = Price * Qty.
+	//          Bill Total = Total of Line Total + 5% tax;
+	//          Items needs to be sorted based on Item Name.
+	// Task 3 - allMatch(), anyMatch(), distinct()
+	// Task 4 - Convert the Stream to Map.
