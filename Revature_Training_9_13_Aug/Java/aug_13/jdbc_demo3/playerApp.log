@@ -1,0 +1,12 @@
+[main] 2021-08-17 11:30:20 INFO  com.arpan.Main  - Welcome to Vinay's Player App V1.0
+[main] 2021-08-17 11:30:20 INFO  com.arpan.Main  - ==========================================
+[main] 2021-08-17 11:30:20 INFO  com.arpan.Main  - 
+What you wish to do today?
+[main] 2021-08-17 11:30:20 INFO  com.arpan.Main  - 1)Create A Player
+[main] 2021-08-17 11:30:20 INFO  com.arpan.Main  - 2)Update A Player
+[main] 2021-08-17 11:30:20 INFO  com.arpan.Main  - 3)Delete A Player
+[main] 2021-08-17 11:30:20 INFO  com.arpan.Main  - 4)List All Players
+[main] 2021-08-17 11:30:20 INFO  com.arpan.Main  - 5)Search Player with various filters
+[main] 2021-08-17 11:30:20 INFO  com.arpan.Main  - 6)EXIT
+[main] 2021-08-17 11:30:20 INFO  com.arpan.Main  - Please enter your choice(1-6)
+[main] 2021-08-17 11:30:25 INFO  com.arpan.Main  - Thanks for using this APP we will see you soon :) 

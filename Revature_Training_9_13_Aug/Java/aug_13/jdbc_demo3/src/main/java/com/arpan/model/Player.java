@@ -4,6 +4,7 @@ public class Player {
 	private int id,age;
 	private String name, city,gender,sportsName;
 	long contact;
+	private Team team;
 	
 	public Player()
 	{
@@ -66,21 +67,18 @@ public class Player {
 		this.contact = l;
 	}
 
+	public Team getTeam() {
+		return team;
+	}
+
+	public void setTeam(Team team) {
+		this.team = team;
+	}
+
 	@Override
 	public String toString() {
 		return "Player [id=" + id + ", age=" + age + ", name=" + name + ", city=" + city + ", gender=" + gender
-				+ ", sportsName=" + sportsName + ", contact=" + contact + "]";
-	}
-
-	public Player(int id,String name, int age,   String gender, String city, String sportsName, long contact) {
-		super();
-		this.id = id;
-		this.age = age;
-		this.name = name;
-		this.city = city;
-		this.gender = gender;
-		this.sportsName = sportsName;
-		this.contact = contact;
+				+ ", sportsName=" + sportsName + ", contact=" + contact + ", team=" + team + "]";
 	}
 	
 }
