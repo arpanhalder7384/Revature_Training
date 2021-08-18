@@ -57,7 +57,7 @@ public class TestIng_Main {
 //		}
 		
 		try {
-			Player p=playersearchDAO.getPlayerById(102);
+			Player p=playersearchDAO.getPlayerById(101);
 			System.out.println(p);
 		} catch (BusinessException e) {
 			// TODO Auto-generated catch block

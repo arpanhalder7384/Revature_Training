@@ -24,7 +24,7 @@ public class MySqlDbConnectionClass {
 		
 //		try {
 			//Step2- Set Connection
-			String url="jdbc:mysql://localhost:3306/revature_training";
+			String url="jdbc:mysql://localhost:3306/project1";
 			String username="arpan";
 			String password="arpan";
 			connection=DriverManager.getConnection(url, username, password);

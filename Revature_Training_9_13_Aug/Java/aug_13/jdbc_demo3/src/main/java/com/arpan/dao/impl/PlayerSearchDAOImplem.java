@@ -40,7 +40,7 @@ public class PlayerSearchDAOImplem  implements PlayerSearchDAO{
 				team.setTeamName(resultSet.getString("teamName"));
 				player.setTeam(team);
 			}else {
-				throw new BusinessException("Entered player id "+id+" doesnt exist");
+				throw new BusinessException("!!Entered player id "+id+" doesnt exist!!!");
 			}
 		} catch (ClassNotFoundException | SQLException e) {
 			log.error(e);

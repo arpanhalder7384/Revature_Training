@@ -1,10 +1,14 @@
 package com.arpan.model;
 
 public class Customer {
+	@Override
+	public String toString() {
+		return "Customer [cus_id=" + cus_id + ", name=" + name + ", email_id=" + email_id + ", contact=" + contact
+				+ "]";
+	}
 	int cus_id;
 	String name;
 	String email_id;
-	String password;
 	long contact;
 	
 	public int getCus_id() {
@@ -24,12 +28,6 @@ public class Customer {
 	}
 	public void setEmail_id(String email_id) {
 		this.email_id = email_id;
-	}
-	public String getPassword() {
-		return password;
-	}
-	public void setPassword(String password) {
-		this.password = password;
 	}
 	public long getContact() {
 		return contact;
