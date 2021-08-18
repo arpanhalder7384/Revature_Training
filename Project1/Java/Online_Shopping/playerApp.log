@@ -1,0 +1,177 @@
+[main] 2021-08-17 15:31:17 INFO  com.arpan.Main  - ---------------------------------------
+[main] 2021-08-17 15:31:17 INFO  com.arpan.Main  - Welcome to Arpan's Online Shopping App
+[main] 2021-08-17 15:31:17 INFO  com.arpan.Main  - ---------------------------------------
+[main] 2021-08-17 15:31:17 INFO  com.arpan.Main  - 
+What you wish to do today?
+[main] 2021-08-17 15:31:17 INFO  com.arpan.Main  - 1)Create A Player
+[main] 2021-08-17 15:31:17 INFO  com.arpan.Main  - 2)Update A Player
+[main] 2021-08-17 15:31:17 INFO  com.arpan.Main  - 3)Delete A Player
+[main] 2021-08-17 15:31:17 INFO  com.arpan.Main  - 4)List All Players
+[main] 2021-08-17 15:31:17 INFO  com.arpan.Main  - 5)Search Player with various filters
+[main] 2021-08-17 15:31:17 INFO  com.arpan.Main  - 6)EXIT
+[main] 2021-08-17 15:31:17 INFO  com.arpan.Main  - Please enter your choice(1-6)
+[main] 2021-08-17 15:31:20 INFO  com.arpan.Main  - 
+What you wish to do today?
+[main] 2021-08-17 15:31:20 INFO  com.arpan.Main  - 1)Create A Player
+[main] 2021-08-17 15:31:20 INFO  com.arpan.Main  - 2)Update A Player
+[main] 2021-08-17 15:31:20 INFO  com.arpan.Main  - 3)Delete A Player
+[main] 2021-08-17 15:31:20 INFO  com.arpan.Main  - 4)List All Players
+[main] 2021-08-17 15:31:20 INFO  com.arpan.Main  - 5)Search Player with various filters
+[main] 2021-08-17 15:31:20 INFO  com.arpan.Main  - 6)EXIT
+[main] 2021-08-17 15:31:20 INFO  com.arpan.Main  - Please enter your choice(1-6)
+[main] 2021-08-17 15:33:25 INFO  com.arpan.Main  - ---------------------------------------
+[main] 2021-08-17 15:33:25 INFO  com.arpan.Main  - Welcome to Arpan's Online Shopping App
+[main] 2021-08-17 15:33:25 INFO  com.arpan.Main  - ---------------------------------------
+[main] 2021-08-17 15:33:25 INFO  com.arpan.Main  - 1)Login as Employee
+[main] 2021-08-17 15:33:25 INFO  com.arpan.Main  - 2)Update A Player
+[main] 2021-08-17 15:33:25 INFO  com.arpan.Main  - 3)Delete A Player
+[main] 2021-08-17 15:33:25 INFO  com.arpan.Main  - 4)List All Players
+[main] 2021-08-17 15:33:25 INFO  com.arpan.Main  - 5)Search Player with various filters
+[main] 2021-08-17 15:33:25 INFO  com.arpan.Main  - 6)EXIT
+[main] 2021-08-17 15:33:25 INFO  com.arpan.Main  - Please enter your choice(1-6)
+[main] 2021-08-17 15:33:46 INFO  com.arpan.Main  - ---------------------------------------
+[main] 2021-08-17 15:33:46 INFO  com.arpan.Main  - Welcome to Arpan's Online Shopping App
+[main] 2021-08-17 15:33:46 INFO  com.arpan.Main  - ---------------------------------------
+[main] 2021-08-17 15:33:46 INFO  com.arpan.Main  - 1)Login as Employee
+[main] 2021-08-17 15:33:46 INFO  com.arpan.Main  - 2)Update A Player
+[main] 2021-08-17 15:33:46 INFO  com.arpan.Main  - 3)Delete A Player
+[main] 2021-08-17 15:33:46 INFO  com.arpan.Main  - 4)List All Players
+[main] 2021-08-17 15:33:46 INFO  com.arpan.Main  - 5)Search Player with various filters
+[main] 2021-08-17 15:33:46 INFO  com.arpan.Main  - 6)EXIT
+[main] 2021-08-17 15:33:46 INFO  com.arpan.Main  - Please enter your choice(1-4)
+
+[main] 2021-08-17 15:33:57 INFO  com.arpan.Main  - ---------------------------------------
+[main] 2021-08-17 15:33:57 INFO  com.arpan.Main  - Welcome to Arpan's Online Shopping App
+[main] 2021-08-17 15:33:57 INFO  com.arpan.Main  - ---------------------------------------
+[main] 2021-08-17 15:33:57 INFO  com.arpan.Main  - 1)Login as Employee
+[main] 2021-08-17 15:33:57 INFO  com.arpan.Main  - 2)Update A Player
+[main] 2021-08-17 15:33:57 INFO  com.arpan.Main  - 3)Delete A Player
+[main] 2021-08-17 15:33:57 INFO  com.arpan.Main  - 4)List All Players
+[main] 2021-08-17 15:33:57 INFO  com.arpan.Main  - 5)Search Player with various filters
+[main] 2021-08-17 15:33:57 INFO  com.arpan.Main  - 6)EXIT
+[main] 2021-08-17 15:33:57 INFO  com.arpan.Main  - Please enter your choice(1-4)
+[main] 2021-08-17 15:34:29 INFO  com.arpan.Main  - 		--------------------------------------
+[main] 2021-08-17 15:34:29 INFO  com.arpan.Main  - 		Welcome to Arpan's Online Shopping App
+[main] 2021-08-17 15:34:29 INFO  com.arpan.Main  - 		--------------------------------------
+[main] 2021-08-17 15:34:29 INFO  com.arpan.Main  - 1)Login as Employee
+[main] 2021-08-17 15:34:29 INFO  com.arpan.Main  - 2)Update A Player
+[main] 2021-08-17 15:34:29 INFO  com.arpan.Main  - 3)Delete A Player
+[main] 2021-08-17 15:34:29 INFO  com.arpan.Main  - 4)List All Players
+[main] 2021-08-17 15:34:29 INFO  com.arpan.Main  - 5)Search Player with various filters
+[main] 2021-08-17 15:34:29 INFO  com.arpan.Main  - 6)EXIT
+[main] 2021-08-17 15:34:29 INFO  com.arpan.Main  - Please enter your choice(1-4)
+[main] 2021-08-17 15:36:01 INFO  com.arpan.Main  - 		--------------------------------------
+[main] 2021-08-17 15:36:01 INFO  com.arpan.Main  - 		Welcome to Arpan's Online Shopping App
+[main] 2021-08-17 15:36:01 INFO  com.arpan.Main  - 		--------------------------------------
+[main] 2021-08-17 15:36:01 INFO  com.arpan.Main  - 1)Login as Employee
+[main] 2021-08-17 15:36:01 INFO  com.arpan.Main  - 2)Login as Customer
+[main] 2021-08-17 15:36:01 INFO  com.arpan.Main  - 3)Create an account
+[main] 2021-08-17 15:36:01 INFO  com.arpan.Main  - 4)EXIT
+[main] 2021-08-17 15:36:01 INFO  com.arpan.Main  - Please enter your choice(1-4)
+[main] 2021-08-17 15:37:42 INFO  com.arpan.Main  - 		--------------------------------------
+[main] 2021-08-17 15:37:42 INFO  com.arpan.Main  - 		Welcome to Arpan's Online Shopping App
+[main] 2021-08-17 15:37:42 INFO  com.arpan.Main  - 		--------------------------------------
+[main] 2021-08-17 15:37:42 INFO  com.arpan.Main  - 1)Login as Employee
+[main] 2021-08-17 15:37:42 INFO  com.arpan.Main  - 2)Login as Customer
+[main] 2021-08-17 15:37:42 INFO  com.arpan.Main  - 3)Create an account
+[main] 2021-08-17 15:37:42 INFO  com.arpan.Main  - 4)EXIT
+[main] 2021-08-17 15:37:42 INFO  com.arpan.Main  - Please enter your choice(1-4)
+[main] 2021-08-17 15:37:46 INFO  com.arpan.Main  - Enter a valid number between 1 to 4. Please try again:
+
+[main] 2021-08-17 15:37:46 INFO  com.arpan.Main  - 1)Login as Employee
+[main] 2021-08-17 15:37:46 INFO  com.arpan.Main  - 2)Login as Customer
+[main] 2021-08-17 15:37:46 INFO  com.arpan.Main  - 3)Create an account
+[main] 2021-08-17 15:37:46 INFO  com.arpan.Main  - 4)EXIT
+[main] 2021-08-17 15:37:46 INFO  com.arpan.Main  - Please enter your choice(1-4)
+[main] 2021-08-17 15:37:50 INFO  com.arpan.Main  - Enter a valid number between 1 to 4. Please try again:
+
+[main] 2021-08-17 15:37:50 INFO  com.arpan.Main  - 1)Login as Employee
+[main] 2021-08-17 15:37:50 INFO  com.arpan.Main  - 2)Login as Customer
+[main] 2021-08-17 15:37:50 INFO  com.arpan.Main  - 3)Create an account
+[main] 2021-08-17 15:37:50 INFO  com.arpan.Main  - 4)EXIT
+[main] 2021-08-17 15:37:50 INFO  com.arpan.Main  - Please enter your choice(1-4)
+[main] 2021-08-17 15:37:57 INFO  com.arpan.Main  - Constructing
+[main] 2021-08-17 15:37:57 INFO  com.arpan.Main  - 1)Login as Employee
+[main] 2021-08-17 15:37:57 INFO  com.arpan.Main  - 2)Login as Customer
+[main] 2021-08-17 15:37:57 INFO  com.arpan.Main  - 3)Create an account
+[main] 2021-08-17 15:37:57 INFO  com.arpan.Main  - 4)EXIT
+[main] 2021-08-17 15:37:57 INFO  com.arpan.Main  - Please enter your choice(1-4)
+[main] 2021-08-17 15:38:01 INFO  com.arpan.Main  - Constructing
+[main] 2021-08-17 15:38:33 INFO  com.arpan.Main  - 		--------------------------------------
+[main] 2021-08-17 15:38:33 INFO  com.arpan.Main  - 		Welcome to Arpan's Online Shopping App
+[main] 2021-08-17 15:38:33 INFO  com.arpan.Main  - 		--------------------------------------
+[main] 2021-08-17 15:38:33 INFO  com.arpan.Main  - 1)Login as Employee
+[main] 2021-08-17 15:38:33 INFO  com.arpan.Main  - 2)Login as Customer
+[main] 2021-08-17 15:38:33 INFO  com.arpan.Main  - 3)Create an account
+[main] 2021-08-17 15:38:33 INFO  com.arpan.Main  - 4)EXIT
+[main] 2021-08-17 15:38:33 INFO  com.arpan.Main  - Please enter your choice(1-4)
+[main] 2021-08-17 15:38:35 INFO  com.arpan.Main  - Exit:
+[main] 2021-08-17 15:38:56 INFO  com.arpan.Main  - 		--------------------------------------
+[main] 2021-08-17 15:38:56 INFO  com.arpan.Main  - 		Welcome to Arpan's Online Shopping App
+[main] 2021-08-17 15:38:56 INFO  com.arpan.Main  - 		--------------------------------------
+[main] 2021-08-17 15:38:56 INFO  com.arpan.Main  - 1)Login as Employee
+[main] 2021-08-17 15:38:56 INFO  com.arpan.Main  - 2)Login as Customer
+[main] 2021-08-17 15:38:56 INFO  com.arpan.Main  - 3)Create an account
+[main] 2021-08-17 15:38:56 INFO  com.arpan.Main  - 4)EXIT
+[main] 2021-08-17 15:38:56 INFO  com.arpan.Main  - Please enter your choice(1-4)
+[main] 2021-08-17 15:38:57 INFO  com.arpan.Main  - Enter a valid number between 1 to 4. Please try again:
+
+[main] 2021-08-17 15:39:50 INFO  com.arpan.Main  - 		--------------------------------------
+[main] 2021-08-17 15:39:50 INFO  com.arpan.Main  - 		Welcome to Arpan's Online Shopping App
+[main] 2021-08-17 15:39:50 INFO  com.arpan.Main  - 		--------------------------------------
+[main] 2021-08-17 15:39:50 INFO  com.arpan.Main  - 1)Login as Employee
+[main] 2021-08-17 15:39:50 INFO  com.arpan.Main  - 2)Login as Customer
+[main] 2021-08-17 15:39:50 INFO  com.arpan.Main  - 3)Create an account
+[main] 2021-08-17 15:39:50 INFO  com.arpan.Main  - 4)EXIT
+[main] 2021-08-17 15:39:50 INFO  com.arpan.Main  - Please enter your choice(1-4)
+[main] 2021-08-17 15:39:51 INFO  com.arpan.Main  - Thank You!! Visit Again!!
+[main] 2021-08-17 17:33:13 INFO  com.arpan.Main_Shopping  - 		--------------------------------------
+[main] 2021-08-17 17:33:13 INFO  com.arpan.Main_Shopping  - 		Welcome to Arpan's Online Shopping App
+[main] 2021-08-17 17:33:13 INFO  com.arpan.Main_Shopping  - 		--------------------------------------
+[main] 2021-08-17 17:33:13 INFO  com.arpan.Main_Shopping  - 1)Login as Employee
+[main] 2021-08-17 17:33:13 INFO  com.arpan.Main_Shopping  - 2)Login as Customer
+[main] 2021-08-17 17:33:13 INFO  com.arpan.Main_Shopping  - 3)Create an account
+[main] 2021-08-17 17:33:13 INFO  com.arpan.Main_Shopping  - 4)EXIT
+[main] 2021-08-17 17:33:13 INFO  com.arpan.Main_Shopping  - Please enter your choice(1-4)
+[main] 2021-08-17 17:33:16 INFO  com.arpan.Main_Shopping  - Thank You!! Visit Again!!
+[main] 2021-08-17 17:44:09 INFO  com.arpan.Main_Shopping  - 		--------------------------------------
+[main] 2021-08-17 17:44:09 INFO  com.arpan.Main_Shopping  - 		Welcome to Arpan's Online Shopping App
+[main] 2021-08-17 17:44:09 INFO  com.arpan.Main_Shopping  - 		--------------------------------------
+[main] 2021-08-17 17:44:09 INFO  com.arpan.Main_Shopping  - *******************************
+[main] 2021-08-17 17:44:09 INFO  com.arpan.Main_Shopping  - 1)Login as Employee
+[main] 2021-08-17 17:44:09 INFO  com.arpan.Main_Shopping  - 2)Login as Customer
+[main] 2021-08-17 17:44:09 INFO  com.arpan.Main_Shopping  - 3)Create an account
+[main] 2021-08-17 17:44:09 INFO  com.arpan.Main_Shopping  - 4)EXIT
+[main] 2021-08-17 17:44:09 INFO  com.arpan.Main_Shopping  - *******************************
+[main] 2021-08-17 17:44:09 INFO  com.arpan.Main_Shopping  - Please enter your choice(1-4)
+[main] 2021-08-17 17:45:59 INFO  com.arpan.Main_Shopping  - 		--------------------------------------
+[main] 2021-08-17 17:45:59 INFO  com.arpan.Main_Shopping  - 		Welcome to Arpan's Online Shopping App
+[main] 2021-08-17 17:45:59 INFO  com.arpan.Main_Shopping  - 		--------------------------------------
+[main] 2021-08-17 17:45:59 INFO  com.arpan.Main_Shopping  - *******************************
+[main] 2021-08-17 17:45:59 INFO  com.arpan.Main_Shopping  - 1)Login as Employee
+[main] 2021-08-17 17:45:59 INFO  com.arpan.Main_Shopping  - 2)Login as Customer
+[main] 2021-08-17 17:45:59 INFO  com.arpan.Main_Shopping  - 3)Create an account
+[main] 2021-08-17 17:45:59 INFO  com.arpan.Main_Shopping  - 4)EXIT
+[main] 2021-08-17 17:45:59 INFO  com.arpan.Main_Shopping  - *******************************
+[main] 2021-08-17 17:45:59 INFO  com.arpan.Main_Shopping  - Please enter your choice(1-4):
+[main] 2021-08-17 17:46:14 INFO  com.arpan.Main_Shopping  - Enter a valid number between 1 to 4. Please try again:
+
+[main] 2021-08-17 17:46:14 INFO  com.arpan.Main_Shopping  - *******************************
+[main] 2021-08-17 17:46:14 INFO  com.arpan.Main_Shopping  - 1)Login as Employee
+[main] 2021-08-17 17:46:14 INFO  com.arpan.Main_Shopping  - 2)Login as Customer
+[main] 2021-08-17 17:46:14 INFO  com.arpan.Main_Shopping  - 3)Create an account
+[main] 2021-08-17 17:46:14 INFO  com.arpan.Main_Shopping  - 4)EXIT
+[main] 2021-08-17 17:46:14 INFO  com.arpan.Main_Shopping  - *******************************
+[main] 2021-08-17 17:46:14 INFO  com.arpan.Main_Shopping  - Please enter your choice(1-4):
+[main] 2021-08-17 17:46:17 INFO  com.arpan.Main_Shopping  - Thank You!! Visit Again!!
+[main] 2021-08-18 09:00:06 INFO  com.arpan.Main_Shopping  - 		--------------------------------------
+[main] 2021-08-18 09:00:06 INFO  com.arpan.Main_Shopping  - 		Welcome to Arpan's Online Shopping App
+[main] 2021-08-18 09:00:06 INFO  com.arpan.Main_Shopping  - 		--------------------------------------
+[main] 2021-08-18 09:00:06 INFO  com.arpan.Main_Shopping  - *******************************
+[main] 2021-08-18 09:00:06 INFO  com.arpan.Main_Shopping  - 1)Login as Employee
+[main] 2021-08-18 09:00:06 INFO  com.arpan.Main_Shopping  - 2)Login as Customer
+[main] 2021-08-18 09:00:06 INFO  com.arpan.Main_Shopping  - 3)Create an account
+[main] 2021-08-18 09:00:06 INFO  com.arpan.Main_Shopping  - 4)EXIT
+[main] 2021-08-18 09:00:06 INFO  com.arpan.Main_Shopping  - *******************************
+[main] 2021-08-18 09:00:06 INFO  com.arpan.Main_Shopping  - Please enter your choice(1-4):
+[main] 2021-08-18 09:00:10 INFO  com.arpan.Main_Shopping  - Thank You!! Visit Again!!

@@ -10,3 +10,366 @@ What you wish to do today?
 [main] 2021-08-17 11:30:20 INFO  com.arpan.Main  - 6)EXIT
 [main] 2021-08-17 11:30:20 INFO  com.arpan.Main  - Please enter your choice(1-6)
 [main] 2021-08-17 11:30:25 INFO  com.arpan.Main  - Thanks for using this APP we will see you soon :) 
+[main] 2021-08-17 17:49:45 INFO  com.arpan_main.Main  - Welcome to Vinay's Player App V1.0
+[main] 2021-08-17 17:49:45 INFO  com.arpan_main.Main  - ==========================================
+[main] 2021-08-17 17:49:45 INFO  com.arpan_main.Main  - 
+What you wish to do today?
+[main] 2021-08-17 17:49:45 INFO  com.arpan_main.Main  - 1)Create A Player
+[main] 2021-08-17 17:49:45 INFO  com.arpan_main.Main  - 2)Update A Player
+[main] 2021-08-17 17:49:45 INFO  com.arpan_main.Main  - 3)Delete A Player
+[main] 2021-08-17 17:49:45 INFO  com.arpan_main.Main  - 4)List All Players
+[main] 2021-08-17 17:49:45 INFO  com.arpan_main.Main  - 5)Search Player with various filters
+[main] 2021-08-17 17:49:45 INFO  com.arpan_main.Main  - 6)EXIT
+[main] 2021-08-17 17:49:45 INFO  com.arpan_main.Main  - Please enter your choice(1-6)
+[main] 2021-08-17 17:49:49 INFO  com.arpan_main.Main  - Thanks for using this APP we will see you soon :) 
+[main] 2021-08-17 17:58:49 INFO  com.arpan_main.Main  - Welcome to Vinay's Player App V1.0
+[main] 2021-08-17 17:58:49 INFO  com.arpan_main.Main  - ==========================================
+[main] 2021-08-17 17:58:49 INFO  com.arpan_main.Main  - 
+What you wish to do today?
+[main] 2021-08-17 17:58:49 INFO  com.arpan_main.Main  - 1)Create A Player
+[main] 2021-08-17 17:58:49 INFO  com.arpan_main.Main  - 2)Update A Player
+[main] 2021-08-17 17:58:49 INFO  com.arpan_main.Main  - 3)Delete A Player
+[main] 2021-08-17 17:58:49 INFO  com.arpan_main.Main  - 4)List All Players
+[main] 2021-08-17 17:58:49 INFO  com.arpan_main.Main  - 5)Search Player with various filters
+[main] 2021-08-17 17:58:49 INFO  com.arpan_main.Main  - 6)EXIT
+[main] 2021-08-17 17:58:49 INFO  com.arpan_main.Main  - Please enter your choice(1-6)
+[main] 2021-08-17 17:58:55 INFO  com.arpan_main.Main  - Thanks for using this APP we will see you soon :) 
+[main] 2021-08-17 23:05:23 INFO  com.arpan_main.Main  - Welcome to Vinay's Player App V1.0
+[main] 2021-08-17 23:05:23 INFO  com.arpan_main.Main  - ==========================================
+[main] 2021-08-17 23:05:23 INFO  com.arpan_main.Main  - 
+What you wish to do today?
+[main] 2021-08-17 23:05:23 INFO  com.arpan_main.Main  - 1)Create A Player
+[main] 2021-08-17 23:05:23 INFO  com.arpan_main.Main  - 2)Update A Player
+[main] 2021-08-17 23:05:23 INFO  com.arpan_main.Main  - 3)Delete A Player
+[main] 2021-08-17 23:05:23 INFO  com.arpan_main.Main  - 4)List All Players
+[main] 2021-08-17 23:05:23 INFO  com.arpan_main.Main  - 5)Search Player with various filters
+[main] 2021-08-17 23:05:23 INFO  com.arpan_main.Main  - 6)EXIT
+[main] 2021-08-17 23:05:23 INFO  com.arpan_main.Main  - Please enter your choice(1-6)
+[main] 2021-08-17 23:05:29 INFO  com.arpan_main.Main  - Thanks for using this APP we will see you soon :) 
+[main] 2021-08-17 23:14:00 INFO  com.arpan_main.Main  - Welcome to Vinay's Player App V1.0
+[main] 2021-08-17 23:14:00 INFO  com.arpan_main.Main  - ==========================================
+[main] 2021-08-17 23:14:00 INFO  com.arpan_main.Main  - 
+What you wish to do today?
+[main] 2021-08-17 23:14:00 INFO  com.arpan_main.Main  - 1)Create A Player
+[main] 2021-08-17 23:14:00 INFO  com.arpan_main.Main  - 2)Update A Player
+[main] 2021-08-17 23:14:00 INFO  com.arpan_main.Main  - 3)Delete A Player
+[main] 2021-08-17 23:14:00 INFO  com.arpan_main.Main  - 4)List All Players
+[main] 2021-08-17 23:14:00 INFO  com.arpan_main.Main  - 5)Search Player with various filters
+[main] 2021-08-17 23:14:00 INFO  com.arpan_main.Main  - 6)EXIT
+[main] 2021-08-17 23:14:00 INFO  com.arpan_main.Main  - Please enter your choice(1-6)
+[main] 2021-08-17 23:14:09 INFO  com.arpan_main.Main  - 
+
+Welcome to Player Search Menu... Search Your Players By various Filters from below Menu option
+[main] 2021-08-17 23:14:09 INFO  com.arpan_main.Main  - 1. By Player ID
+[main] 2021-08-17 23:14:09 INFO  com.arpan_main.Main  - 2. By Player Name
+[main] 2021-08-17 23:14:09 INFO  com.arpan_main.Main  - 3. By Player Age
+[main] 2021-08-17 23:14:09 INFO  com.arpan_main.Main  - 4. By Player Gender
+[main] 2021-08-17 23:14:09 INFO  com.arpan_main.Main  - 5. By Player City
+[main] 2021-08-17 23:14:09 INFO  com.arpan_main.Main  - 6. By TeamName
+[main] 2021-08-17 23:14:09 INFO  com.arpan_main.Main  - 7. By SportsName
+[main] 2021-08-17 23:14:09 INFO  com.arpan_main.Main  - 8. By Player Contact
+[main] 2021-08-17 23:14:09 INFO  com.arpan_main.Main  - 9. Go back to Main Menu
+[main] 2021-08-17 23:14:09 INFO  com.arpan_main.Main  - Please enter your choice(1-9)
+[main] 2021-08-17 23:14:15 INFO  com.arpan_main.Main  - Enter player id to get player details
+[main] 2021-08-17 23:14:17 INFO  com.arpan_main.Main  - 
+
+Welcome to Player Search Menu... Search Your Players By various Filters from below Menu option
+[main] 2021-08-17 23:14:17 INFO  com.arpan_main.Main  - 1. By Player ID
+[main] 2021-08-17 23:14:17 INFO  com.arpan_main.Main  - 2. By Player Name
+[main] 2021-08-17 23:14:17 INFO  com.arpan_main.Main  - 3. By Player Age
+[main] 2021-08-17 23:14:17 INFO  com.arpan_main.Main  - 4. By Player Gender
+[main] 2021-08-17 23:14:17 INFO  com.arpan_main.Main  - 5. By Player City
+[main] 2021-08-17 23:14:17 INFO  com.arpan_main.Main  - 6. By TeamName
+[main] 2021-08-17 23:14:17 INFO  com.arpan_main.Main  - 7. By SportsName
+[main] 2021-08-17 23:14:17 INFO  com.arpan_main.Main  - 8. By Player Contact
+[main] 2021-08-17 23:14:17 INFO  com.arpan_main.Main  - 9. Go back to Main Menu
+[main] 2021-08-17 23:14:17 INFO  com.arpan_main.Main  - Please enter your choice(1-9)
+[main] 2021-08-17 23:14:23 INFO  com.arpan_main.Main  - Enter player id to get player details
+[main] 2021-08-17 23:14:26 INFO  com.arpan_main.Main  - 
+
+Welcome to Player Search Menu... Search Your Players By various Filters from below Menu option
+[main] 2021-08-17 23:14:26 INFO  com.arpan_main.Main  - 1. By Player ID
+[main] 2021-08-17 23:14:26 INFO  com.arpan_main.Main  - 2. By Player Name
+[main] 2021-08-17 23:14:26 INFO  com.arpan_main.Main  - 3. By Player Age
+[main] 2021-08-17 23:14:26 INFO  com.arpan_main.Main  - 4. By Player Gender
+[main] 2021-08-17 23:14:26 INFO  com.arpan_main.Main  - 5. By Player City
+[main] 2021-08-17 23:14:26 INFO  com.arpan_main.Main  - 6. By TeamName
+[main] 2021-08-17 23:14:26 INFO  com.arpan_main.Main  - 7. By SportsName
+[main] 2021-08-17 23:14:26 INFO  com.arpan_main.Main  - 8. By Player Contact
+[main] 2021-08-17 23:14:26 INFO  com.arpan_main.Main  - 9. Go back to Main Menu
+[main] 2021-08-17 23:14:26 INFO  com.arpan_main.Main  - Please enter your choice(1-9)
+[main] 2021-08-17 23:14:38 INFO  com.arpan_main.Main  - 
+
+GOING BACK TO MAIN MENU......
+
+
+[main] 2021-08-17 23:14:38 INFO  com.arpan_main.Main  - 
+What you wish to do today?
+[main] 2021-08-17 23:14:38 INFO  com.arpan_main.Main  - 1)Create A Player
+[main] 2021-08-17 23:14:38 INFO  com.arpan_main.Main  - 2)Update A Player
+[main] 2021-08-17 23:14:38 INFO  com.arpan_main.Main  - 3)Delete A Player
+[main] 2021-08-17 23:14:38 INFO  com.arpan_main.Main  - 4)List All Players
+[main] 2021-08-17 23:14:38 INFO  com.arpan_main.Main  - 5)Search Player with various filters
+[main] 2021-08-17 23:14:38 INFO  com.arpan_main.Main  - 6)EXIT
+[main] 2021-08-17 23:14:38 INFO  com.arpan_main.Main  - Please enter your choice(1-6)
+[main] 2021-08-17 23:14:40 INFO  com.arpan_main.Main  - Thanks for using this APP we will see you soon :) 
+[main] 2021-08-17 23:21:06 INFO  com.arpan_main.Main  - Welcome to Vinay's Player App V1.0
+[main] 2021-08-17 23:21:06 INFO  com.arpan_main.Main  - ==========================================
+[main] 2021-08-17 23:21:06 INFO  com.arpan_main.Main  - 
+What you wish to do today?
+[main] 2021-08-17 23:21:06 INFO  com.arpan_main.Main  - 1)Create A Player
+[main] 2021-08-17 23:21:06 INFO  com.arpan_main.Main  - 2)Update A Player
+[main] 2021-08-17 23:21:06 INFO  com.arpan_main.Main  - 3)Delete A Player
+[main] 2021-08-17 23:21:06 INFO  com.arpan_main.Main  - 4)List All Players
+[main] 2021-08-17 23:21:06 INFO  com.arpan_main.Main  - 5)Search Player with various filters
+[main] 2021-08-17 23:21:06 INFO  com.arpan_main.Main  - 6)EXIT
+[main] 2021-08-17 23:21:06 INFO  com.arpan_main.Main  - Please enter your choice(1-6)
+[main] 2021-08-17 23:21:11 INFO  com.arpan_main.Main  - 
+
+Welcome to Player Search Menu... Search Your Players By various Filters from below Menu option
+[main] 2021-08-17 23:21:11 INFO  com.arpan_main.Main  - 1. By Player ID
+[main] 2021-08-17 23:21:11 INFO  com.arpan_main.Main  - 2. By Player Name
+[main] 2021-08-17 23:21:11 INFO  com.arpan_main.Main  - 3. By Player Age
+[main] 2021-08-17 23:21:11 INFO  com.arpan_main.Main  - 4. By Player Gender
+[main] 2021-08-17 23:21:11 INFO  com.arpan_main.Main  - 5. By Player City
+[main] 2021-08-17 23:21:11 INFO  com.arpan_main.Main  - 6. By TeamName
+[main] 2021-08-17 23:21:11 INFO  com.arpan_main.Main  - 7. By SportsName
+[main] 2021-08-17 23:21:11 INFO  com.arpan_main.Main  - 8. By Player Contact
+[main] 2021-08-17 23:21:11 INFO  com.arpan_main.Main  - 9. Go back to Main Menu
+[main] 2021-08-17 23:21:11 INFO  com.arpan_main.Main  - Please enter your choice(1-9)
+[main] 2021-08-17 23:21:13 INFO  com.arpan_main.Main  - Enter player id to get player details
+[main] 2021-08-17 23:21:14 WARN  com.arpan_main.Main  - Entered player id 101 doesnt exist
+[main] 2021-08-17 23:21:14 INFO  com.arpan_main.Main  - 
+
+Welcome to Player Search Menu... Search Your Players By various Filters from below Menu option
+[main] 2021-08-17 23:21:14 INFO  com.arpan_main.Main  - 1. By Player ID
+[main] 2021-08-17 23:21:14 INFO  com.arpan_main.Main  - 2. By Player Name
+[main] 2021-08-17 23:21:14 INFO  com.arpan_main.Main  - 3. By Player Age
+[main] 2021-08-17 23:21:14 INFO  com.arpan_main.Main  - 4. By Player Gender
+[main] 2021-08-17 23:21:14 INFO  com.arpan_main.Main  - 5. By Player City
+[main] 2021-08-17 23:21:14 INFO  com.arpan_main.Main  - 6. By TeamName
+[main] 2021-08-17 23:21:14 INFO  com.arpan_main.Main  - 7. By SportsName
+[main] 2021-08-17 23:21:14 INFO  com.arpan_main.Main  - 8. By Player Contact
+[main] 2021-08-17 23:21:14 INFO  com.arpan_main.Main  - 9. Go back to Main Menu
+[main] 2021-08-17 23:21:14 INFO  com.arpan_main.Main  - Please enter your choice(1-9)
+[main] 2021-08-17 23:21:21 WARN  com.arpan_main.Main  - Invalid Search Option... Choice should be only number between 1-9 only. Kindly Retry 
+[main] 2021-08-17 23:21:21 INFO  com.arpan_main.Main  - 
+
+Welcome to Player Search Menu... Search Your Players By various Filters from below Menu option
+[main] 2021-08-17 23:21:21 INFO  com.arpan_main.Main  - 1. By Player ID
+[main] 2021-08-17 23:21:21 INFO  com.arpan_main.Main  - 2. By Player Name
+[main] 2021-08-17 23:21:21 INFO  com.arpan_main.Main  - 3. By Player Age
+[main] 2021-08-17 23:21:21 INFO  com.arpan_main.Main  - 4. By Player Gender
+[main] 2021-08-17 23:21:21 INFO  com.arpan_main.Main  - 5. By Player City
+[main] 2021-08-17 23:21:21 INFO  com.arpan_main.Main  - 6. By TeamName
+[main] 2021-08-17 23:21:21 INFO  com.arpan_main.Main  - 7. By SportsName
+[main] 2021-08-17 23:21:21 INFO  com.arpan_main.Main  - 8. By Player Contact
+[main] 2021-08-17 23:21:21 INFO  com.arpan_main.Main  - 9. Go back to Main Menu
+[main] 2021-08-17 23:21:21 INFO  com.arpan_main.Main  - Please enter your choice(1-9)
+[main] 2021-08-17 23:21:27 INFO  com.arpan_main.Main  - Enter player id to get player details
+[main] 2021-08-17 23:21:28 INFO  com.arpan_main.Main  - 
+
+Welcome to Player Search Menu... Search Your Players By various Filters from below Menu option
+[main] 2021-08-17 23:21:28 INFO  com.arpan_main.Main  - 1. By Player ID
+[main] 2021-08-17 23:21:28 INFO  com.arpan_main.Main  - 2. By Player Name
+[main] 2021-08-17 23:21:28 INFO  com.arpan_main.Main  - 3. By Player Age
+[main] 2021-08-17 23:21:28 INFO  com.arpan_main.Main  - 4. By Player Gender
+[main] 2021-08-17 23:21:28 INFO  com.arpan_main.Main  - 5. By Player City
+[main] 2021-08-17 23:21:28 INFO  com.arpan_main.Main  - 6. By TeamName
+[main] 2021-08-17 23:21:28 INFO  com.arpan_main.Main  - 7. By SportsName
+[main] 2021-08-17 23:21:28 INFO  com.arpan_main.Main  - 8. By Player Contact
+[main] 2021-08-17 23:21:28 INFO  com.arpan_main.Main  - 9. Go back to Main Menu
+[main] 2021-08-17 23:21:28 INFO  com.arpan_main.Main  - Please enter your choice(1-9)
+[main] 2021-08-17 23:21:32 INFO  com.arpan_main.Main  - Enter player id to get player details
+[main] 2021-08-17 23:21:34 INFO  com.arpan_main.Main  - 
+
+Welcome to Player Search Menu... Search Your Players By various Filters from below Menu option
+[main] 2021-08-17 23:21:34 INFO  com.arpan_main.Main  - 1. By Player ID
+[main] 2021-08-17 23:21:34 INFO  com.arpan_main.Main  - 2. By Player Name
+[main] 2021-08-17 23:21:34 INFO  com.arpan_main.Main  - 3. By Player Age
+[main] 2021-08-17 23:21:34 INFO  com.arpan_main.Main  - 4. By Player Gender
+[main] 2021-08-17 23:21:34 INFO  com.arpan_main.Main  - 5. By Player City
+[main] 2021-08-17 23:21:34 INFO  com.arpan_main.Main  - 6. By TeamName
+[main] 2021-08-17 23:21:34 INFO  com.arpan_main.Main  - 7. By SportsName
+[main] 2021-08-17 23:21:34 INFO  com.arpan_main.Main  - 8. By Player Contact
+[main] 2021-08-17 23:21:34 INFO  com.arpan_main.Main  - 9. Go back to Main Menu
+[main] 2021-08-17 23:21:34 INFO  com.arpan_main.Main  - Please enter your choice(1-9)
+[main] 2021-08-17 23:22:44 INFO  com.arpan_main.Main  - Welcome to Vinay's Player App V1.0
+[main] 2021-08-17 23:22:44 INFO  com.arpan_main.Main  - ==========================================
+[main] 2021-08-17 23:22:44 INFO  com.arpan_main.Main  - 
+What you wish to do today?
+[main] 2021-08-17 23:22:44 INFO  com.arpan_main.Main  - 1)Create A Player
+[main] 2021-08-17 23:22:44 INFO  com.arpan_main.Main  - 2)Update A Player
+[main] 2021-08-17 23:22:44 INFO  com.arpan_main.Main  - 3)Delete A Player
+[main] 2021-08-17 23:22:44 INFO  com.arpan_main.Main  - 4)List All Players
+[main] 2021-08-17 23:22:44 INFO  com.arpan_main.Main  - 5)Search Player with various filters
+[main] 2021-08-17 23:22:44 INFO  com.arpan_main.Main  - 6)EXIT
+[main] 2021-08-17 23:22:44 INFO  com.arpan_main.Main  - Please enter your choice(1-6)
+[main] 2021-08-17 23:22:49 INFO  com.arpan_main.Main  - 
+
+Welcome to Player Search Menu... Search Your Players By various Filters from below Menu option
+[main] 2021-08-17 23:22:49 INFO  com.arpan_main.Main  - 1. By Player ID
+[main] 2021-08-17 23:22:49 INFO  com.arpan_main.Main  - 2. By Player Name
+[main] 2021-08-17 23:22:49 INFO  com.arpan_main.Main  - 3. By Player Age
+[main] 2021-08-17 23:22:49 INFO  com.arpan_main.Main  - 4. By Player Gender
+[main] 2021-08-17 23:22:49 INFO  com.arpan_main.Main  - 5. By Player City
+[main] 2021-08-17 23:22:49 INFO  com.arpan_main.Main  - 6. By TeamName
+[main] 2021-08-17 23:22:49 INFO  com.arpan_main.Main  - 7. By SportsName
+[main] 2021-08-17 23:22:49 INFO  com.arpan_main.Main  - 8. By Player Contact
+[main] 2021-08-17 23:22:49 INFO  com.arpan_main.Main  - 9. Go back to Main Menu
+[main] 2021-08-17 23:22:49 INFO  com.arpan_main.Main  - Please enter your choice(1-9)
+[main] 2021-08-17 23:22:50 INFO  com.arpan_main.Main  - Enter player id to get player details
+[main] 2021-08-17 23:22:52 INFO  com.arpan_main.Main  - 
+[main] 2021-08-17 23:22:52 INFO  com.arpan_main.Main  - 
+
+Welcome to Player Search Menu... Search Your Players By various Filters from below Menu option
+[main] 2021-08-17 23:22:52 INFO  com.arpan_main.Main  - 1. By Player ID
+[main] 2021-08-17 23:22:52 INFO  com.arpan_main.Main  - 2. By Player Name
+[main] 2021-08-17 23:22:52 INFO  com.arpan_main.Main  - 3. By Player Age
+[main] 2021-08-17 23:22:52 INFO  com.arpan_main.Main  - 4. By Player Gender
+[main] 2021-08-17 23:22:52 INFO  com.arpan_main.Main  - 5. By Player City
+[main] 2021-08-17 23:22:52 INFO  com.arpan_main.Main  - 6. By TeamName
+[main] 2021-08-17 23:22:52 INFO  com.arpan_main.Main  - 7. By SportsName
+[main] 2021-08-17 23:22:52 INFO  com.arpan_main.Main  - 8. By Player Contact
+[main] 2021-08-17 23:22:52 INFO  com.arpan_main.Main  - 9. Go back to Main Menu
+[main] 2021-08-17 23:22:52 INFO  com.arpan_main.Main  - Please enter your choice(1-9)
+[main] 2021-08-17 23:22:57 INFO  com.arpan_main.Main  - Enter player id to get player details
+[main] 2021-08-17 23:22:58 WARN  com.arpan_main.Main  - Entered player id 101 doesnt exist
+[main] 2021-08-17 23:22:58 INFO  com.arpan_main.Main  - 
+
+Welcome to Player Search Menu... Search Your Players By various Filters from below Menu option
+[main] 2021-08-17 23:22:58 INFO  com.arpan_main.Main  - 1. By Player ID
+[main] 2021-08-17 23:22:58 INFO  com.arpan_main.Main  - 2. By Player Name
+[main] 2021-08-17 23:22:58 INFO  com.arpan_main.Main  - 3. By Player Age
+[main] 2021-08-17 23:22:58 INFO  com.arpan_main.Main  - 4. By Player Gender
+[main] 2021-08-17 23:22:58 INFO  com.arpan_main.Main  - 5. By Player City
+[main] 2021-08-17 23:22:58 INFO  com.arpan_main.Main  - 6. By TeamName
+[main] 2021-08-17 23:22:58 INFO  com.arpan_main.Main  - 7. By SportsName
+[main] 2021-08-17 23:22:58 INFO  com.arpan_main.Main  - 8. By Player Contact
+[main] 2021-08-17 23:22:58 INFO  com.arpan_main.Main  - 9. Go back to Main Menu
+[main] 2021-08-17 23:22:58 INFO  com.arpan_main.Main  - Please enter your choice(1-9)
+[main] 2021-08-17 23:23:02 INFO  com.arpan_main.Main  - Enter player id to get player details
+[main] 2021-08-17 23:23:03 INFO  com.arpan_main.Main  - 
+[main] 2021-08-17 23:23:03 INFO  com.arpan_main.Main  - 
+
+Welcome to Player Search Menu... Search Your Players By various Filters from below Menu option
+[main] 2021-08-17 23:23:03 INFO  com.arpan_main.Main  - 1. By Player ID
+[main] 2021-08-17 23:23:03 INFO  com.arpan_main.Main  - 2. By Player Name
+[main] 2021-08-17 23:23:03 INFO  com.arpan_main.Main  - 3. By Player Age
+[main] 2021-08-17 23:23:03 INFO  com.arpan_main.Main  - 4. By Player Gender
+[main] 2021-08-17 23:23:03 INFO  com.arpan_main.Main  - 5. By Player City
+[main] 2021-08-17 23:23:03 INFO  com.arpan_main.Main  - 6. By TeamName
+[main] 2021-08-17 23:23:03 INFO  com.arpan_main.Main  - 7. By SportsName
+[main] 2021-08-17 23:23:03 INFO  com.arpan_main.Main  - 8. By Player Contact
+[main] 2021-08-17 23:23:03 INFO  com.arpan_main.Main  - 9. Go back to Main Menu
+[main] 2021-08-17 23:23:03 INFO  com.arpan_main.Main  - Please enter your choice(1-9)
+[main] 2021-08-18 08:57:47 INFO  com.arpan.main.Main  - Welcome to Vinay's Player App V1.0
+[main] 2021-08-18 08:57:47 INFO  com.arpan.main.Main  - ==========================================
+[main] 2021-08-18 08:57:47 INFO  com.arpan.main.Main  - 
+What you wish to do today?
+[main] 2021-08-18 08:57:47 INFO  com.arpan.main.Main  - 1)Create A Player
+[main] 2021-08-18 08:57:47 INFO  com.arpan.main.Main  - 2)Update A Player
+[main] 2021-08-18 08:57:47 INFO  com.arpan.main.Main  - 3)Delete A Player
+[main] 2021-08-18 08:57:47 INFO  com.arpan.main.Main  - 4)List All Players
+[main] 2021-08-18 08:57:47 INFO  com.arpan.main.Main  - 5)Search Player with various filters
+[main] 2021-08-18 08:57:47 INFO  com.arpan.main.Main  - 6)EXIT
+[main] 2021-08-18 08:57:47 INFO  com.arpan.main.Main  - Please enter your choice(1-6)
+[main] 2021-08-18 08:57:51 INFO  com.arpan.main.Main  - 
+
+Welcome to Player Search Menu... Search Your Players By various Filters from below Menu option
+[main] 2021-08-18 08:57:51 INFO  com.arpan.main.Main  - 1. By Player ID
+[main] 2021-08-18 08:57:51 INFO  com.arpan.main.Main  - 2. By Player Name
+[main] 2021-08-18 08:57:51 INFO  com.arpan.main.Main  - 3. By Player Age
+[main] 2021-08-18 08:57:51 INFO  com.arpan.main.Main  - 4. By Player Gender
+[main] 2021-08-18 08:57:51 INFO  com.arpan.main.Main  - 5. By Player City
+[main] 2021-08-18 08:57:51 INFO  com.arpan.main.Main  - 6. By TeamName
+[main] 2021-08-18 08:57:51 INFO  com.arpan.main.Main  - 7. By SportsName
+[main] 2021-08-18 08:57:51 INFO  com.arpan.main.Main  - 8. By Player Contact
+[main] 2021-08-18 08:57:51 INFO  com.arpan.main.Main  - 9. Go back to Main Menu
+[main] 2021-08-18 08:57:51 INFO  com.arpan.main.Main  - Please enter your choice(1-9)
+[main] 2021-08-18 08:57:54 INFO  com.arpan.main.Main  - Enter player id to get player details
+[main] 2021-08-18 08:57:57 INFO  com.arpan.main.Main  - Player with id 102 found successfully... Below is the details
+[main] 2021-08-18 08:57:57 INFO  com.arpan.main.Main  - Player [id=102, age=45, name=Sourav, city=Kolkata, gender=M, sportsName=Cricket, contact=2123456789, team=Team [id=1, teamName=India]]
+[main] 2021-08-18 08:57:57 INFO  com.arpan.main.Main  - 
+
+Welcome to Player Search Menu... Search Your Players By various Filters from below Menu option
+[main] 2021-08-18 08:57:57 INFO  com.arpan.main.Main  - 1. By Player ID
+[main] 2021-08-18 08:57:57 INFO  com.arpan.main.Main  - 2. By Player Name
+[main] 2021-08-18 08:57:57 INFO  com.arpan.main.Main  - 3. By Player Age
+[main] 2021-08-18 08:57:57 INFO  com.arpan.main.Main  - 4. By Player Gender
+[main] 2021-08-18 08:57:57 INFO  com.arpan.main.Main  - 5. By Player City
+[main] 2021-08-18 08:57:57 INFO  com.arpan.main.Main  - 6. By TeamName
+[main] 2021-08-18 08:57:57 INFO  com.arpan.main.Main  - 7. By SportsName
+[main] 2021-08-18 08:57:57 INFO  com.arpan.main.Main  - 8. By Player Contact
+[main] 2021-08-18 08:57:57 INFO  com.arpan.main.Main  - 9. Go back to Main Menu
+[main] 2021-08-18 08:57:57 INFO  com.arpan.main.Main  - Please enter your choice(1-9)
+[main] 2021-08-18 08:58:04 INFO  com.arpan.main.Main  - 
+
+GOING BACK TO MAIN MENU......
+
+
+[main] 2021-08-18 08:58:04 INFO  com.arpan.main.Main  - 
+What you wish to do today?
+[main] 2021-08-18 08:58:04 INFO  com.arpan.main.Main  - 1)Create A Player
+[main] 2021-08-18 08:58:04 INFO  com.arpan.main.Main  - 2)Update A Player
+[main] 2021-08-18 08:58:04 INFO  com.arpan.main.Main  - 3)Delete A Player
+[main] 2021-08-18 08:58:04 INFO  com.arpan.main.Main  - 4)List All Players
+[main] 2021-08-18 08:58:04 INFO  com.arpan.main.Main  - 5)Search Player with various filters
+[main] 2021-08-18 08:58:04 INFO  com.arpan.main.Main  - 6)EXIT
+[main] 2021-08-18 08:58:04 INFO  com.arpan.main.Main  - Please enter your choice(1-6)
+[main] 2021-08-18 08:58:06 INFO  com.arpan.main.Main  - Thanks for using this APP we will see you soon :) 
+[main] 2021-08-18 10:12:21 INFO  com.arpan.main.Main  - Welcome to Vinay's Player App V1.0
+[main] 2021-08-18 10:12:21 INFO  com.arpan.main.Main  - ==========================================
+[main] 2021-08-18 10:12:21 INFO  com.arpan.main.Main  - 
+What you wish to do today?
+[main] 2021-08-18 10:12:21 INFO  com.arpan.main.Main  - 1)Create A Player
+[main] 2021-08-18 10:12:21 INFO  com.arpan.main.Main  - 2)Update A Player
+[main] 2021-08-18 10:12:21 INFO  com.arpan.main.Main  - 3)Delete A Player
+[main] 2021-08-18 10:12:21 INFO  com.arpan.main.Main  - 4)List All Players
+[main] 2021-08-18 10:12:21 INFO  com.arpan.main.Main  - 5)Search Player with various filters
+[main] 2021-08-18 10:12:21 INFO  com.arpan.main.Main  - 6)EXIT
+[main] 2021-08-18 10:12:21 INFO  com.arpan.main.Main  - Please enter your choice(1-6)
+[main] 2021-08-18 10:12:29 INFO  com.arpan.main.Main  - 
+
+Welcome to Player Search Menu... Search Your Players By various Filters from below Menu option
+[main] 2021-08-18 10:12:29 INFO  com.arpan.main.Main  - 1. By Player ID
+[main] 2021-08-18 10:12:29 INFO  com.arpan.main.Main  - 2. By Player Name
+[main] 2021-08-18 10:12:29 INFO  com.arpan.main.Main  - 3. By Player Age
+[main] 2021-08-18 10:12:29 INFO  com.arpan.main.Main  - 4. By Player Gender
+[main] 2021-08-18 10:12:29 INFO  com.arpan.main.Main  - 5. By Player City
+[main] 2021-08-18 10:12:29 INFO  com.arpan.main.Main  - 6. By TeamName
+[main] 2021-08-18 10:12:29 INFO  com.arpan.main.Main  - 7. By SportsName
+[main] 2021-08-18 10:12:29 INFO  com.arpan.main.Main  - 8. By Player Contact
+[main] 2021-08-18 10:12:29 INFO  com.arpan.main.Main  - 9. Go back to Main Menu
+[main] 2021-08-18 10:12:29 INFO  com.arpan.main.Main  - Please enter your choice(1-9)
+[main] 2021-08-18 10:12:31 INFO  com.arpan.main.Main  - Enter player id to get player details
+[main] 2021-08-18 10:12:33 INFO  com.arpan.main.Main  - Player with id 102 found successfully... Below is the details
+[main] 2021-08-18 10:12:33 INFO  com.arpan.main.Main  - Player [id=102, age=45, name=Sourav, city=Kolkata, gender=M, sportsName=Cricket, contact=2123456789, team=Team [id=1, teamName=India]]
+[main] 2021-08-18 10:12:33 INFO  com.arpan.main.Main  - 
+
+Welcome to Player Search Menu... Search Your Players By various Filters from below Menu option
+[main] 2021-08-18 10:12:33 INFO  com.arpan.main.Main  - 1. By Player ID
+[main] 2021-08-18 10:12:33 INFO  com.arpan.main.Main  - 2. By Player Name
+[main] 2021-08-18 10:12:33 INFO  com.arpan.main.Main  - 3. By Player Age
+[main] 2021-08-18 10:12:33 INFO  com.arpan.main.Main  - 4. By Player Gender
+[main] 2021-08-18 10:12:33 INFO  com.arpan.main.Main  - 5. By Player City
+[main] 2021-08-18 10:12:33 INFO  com.arpan.main.Main  - 6. By TeamName
+[main] 2021-08-18 10:12:33 INFO  com.arpan.main.Main  - 7. By SportsName
+[main] 2021-08-18 10:12:33 INFO  com.arpan.main.Main  - 8. By Player Contact
+[main] 2021-08-18 10:12:33 INFO  com.arpan.main.Main  - 9. Go back to Main Menu
+[main] 2021-08-18 10:12:33 INFO  com.arpan.main.Main  - Please enter your choice(1-9)
+[main] 2021-08-18 10:12:41 INFO  com.arpan.main.Main  - 
+
+GOING BACK TO MAIN MENU......
+
+
+[main] 2021-08-18 10:12:41 INFO  com.arpan.main.Main  - 
+What you wish to do today?
+[main] 2021-08-18 10:12:41 INFO  com.arpan.main.Main  - 1)Create A Player
+[main] 2021-08-18 10:12:41 INFO  com.arpan.main.Main  - 2)Update A Player
+[main] 2021-08-18 10:12:41 INFO  com.arpan.main.Main  - 3)Delete A Player
+[main] 2021-08-18 10:12:41 INFO  com.arpan.main.Main  - 4)List All Players
+[main] 2021-08-18 10:12:41 INFO  com.arpan.main.Main  - 5)Search Player with various filters
+[main] 2021-08-18 10:12:41 INFO  com.arpan.main.Main  - 6)EXIT
+[main] 2021-08-18 10:12:41 INFO  com.arpan.main.Main  - Please enter your choice(1-6)
+[main] 2021-08-18 10:12:43 INFO  com.arpan.main.Main  - Thanks for using this APP we will see you soon :) 

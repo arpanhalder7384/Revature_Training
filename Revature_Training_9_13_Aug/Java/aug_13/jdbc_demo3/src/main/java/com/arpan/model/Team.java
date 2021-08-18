@@ -3,6 +3,14 @@ package com.arpan.model;
 public class Team {
 	private int id;
 	private String teamName;
+	
+	public Team() {		
+	}
+	public Team(String teamName) {
+		super();
+		this.teamName = teamName;
+	}
+	
 	public int getId() {
 		return id;
 	}
@@ -19,10 +27,6 @@ public class Team {
 	public String toString() {
 		return "Team [id=" + id + ", teamName=" + teamName + "]";
 	}
-	public Team(int id, String teamName) {
-		super();
-		this.id = id;
-		this.teamName = teamName;
-	}
+	
 	
 }
