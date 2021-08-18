@@ -5,5 +5,7 @@ import com.arpan.model.Customer;
 import com.arpan.exception.BusinessException;
 
 public interface AdminDAO {
-	public Customer adminLoginValidation(String n,String p) throws BusinessException;
+	public boolean changePassword(String email_id,String password) throws BusinessException;
+	public Admin getCustomerDetails(String email_id) throws BusinessException;
+	public boolean changeContact(String email_id,Long contact) throws BusinessException;
 }

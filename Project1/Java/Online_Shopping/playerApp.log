@@ -851,3 +851,221 @@ Welcome!! Back to Main Page
 [main] 2021-08-18 13:04:36 INFO  com.arpan.main.Main_Shopping  - *******************************
 [main] 2021-08-18 13:04:36 INFO  com.arpan.main.Main_Shopping  - Please enter your choice(1-4):
 [main] 2021-08-18 13:04:38 INFO  com.arpan.main.Main_Shopping  - Enter Username:
+[main] 2021-08-18 13:04:45 INFO  com.arpan.main.Main_Shopping  - Enter Password:
+[main] 2021-08-18 13:04:49 INFO  com.arpan.main.Main_Shopping  - 
+!!Welcome!! Arpan Halder !! You are an Admin
+
+[main] 2021-08-18 13:04:49 INFO  com.arpan.main.Main_Shopping  - ********************************************
+[main] 2021-08-18 13:04:49 INFO  com.arpan.main.Main_Shopping  - --------------------------------------------
+[main] 2021-08-18 13:04:49 INFO  com.arpan.main.Main_Shopping  - -	1)Add new Product
+[main] 2021-08-18 13:04:49 INFO  com.arpan.main.Main_Shopping  - -	2)Check new Orders and change status
+[main] 2021-08-18 13:04:49 INFO  com.arpan.main.Main_Shopping  - -	3)Change existing product details
+[main] 2021-08-18 13:04:49 INFO  com.arpan.main.Main_Shopping  - -	4)Update contact No.
+[main] 2021-08-18 13:04:49 INFO  com.arpan.main.Main_Shopping  - -	5)Change Password
+[main] 2021-08-18 13:04:49 INFO  com.arpan.main.Main_Shopping  - -	6)Logout
+[main] 2021-08-18 13:04:49 INFO  com.arpan.main.Main_Shopping  - -	Please enter your choice(1-6)
+[main] 2021-08-18 13:04:49 INFO  com.arpan.main.Main_Shopping  - --------------------------------------------
+[main] 2021-08-18 13:04:49 INFO  com.arpan.main.Main_Shopping  - ********************************************
+[main] 2021-08-18 14:00:56 INFO  com.arpan.main.Main_Shopping  - 		--------------------------------------
+[main] 2021-08-18 14:00:56 INFO  com.arpan.main.Main_Shopping  - 		Welcome to Arpan's Online Shopping App
+[main] 2021-08-18 14:00:56 INFO  com.arpan.main.Main_Shopping  - 		--------------------------------------
+[main] 2021-08-18 14:00:56 INFO  com.arpan.main.Main_Shopping  - *******************************
+[main] 2021-08-18 14:00:56 INFO  com.arpan.main.Main_Shopping  - 1)Login as Admin
+[main] 2021-08-18 14:00:56 INFO  com.arpan.main.Main_Shopping  - 2)Login as Customer
+[main] 2021-08-18 14:00:56 INFO  com.arpan.main.Main_Shopping  - 3)Create an account
+[main] 2021-08-18 14:00:56 INFO  com.arpan.main.Main_Shopping  - 4)EXIT
+[main] 2021-08-18 14:00:56 INFO  com.arpan.main.Main_Shopping  - *******************************
+[main] 2021-08-18 14:00:56 INFO  com.arpan.main.Main_Shopping  - Please enter your choice(1-4):
+[main] 2021-08-18 14:01:09 INFO  com.arpan.main.Main_Shopping  - Thank You!! Visit Again!!
+[main] 2021-08-18 15:43:48 INFO  com.arpan.main.Main_Shopping  - 		--------------------------------------
+[main] 2021-08-18 15:43:48 INFO  com.arpan.main.Main_Shopping  - 		Welcome to Arpan's Online Shopping App
+[main] 2021-08-18 15:43:48 INFO  com.arpan.main.Main_Shopping  - 		--------------------------------------
+[main] 2021-08-18 15:43:48 INFO  com.arpan.main.Main_Shopping  - *******************************
+[main] 2021-08-18 15:43:48 INFO  com.arpan.main.Main_Shopping  - 1)Login as Admin
+[main] 2021-08-18 15:43:48 INFO  com.arpan.main.Main_Shopping  - 2)Login as Customer
+[main] 2021-08-18 15:43:48 INFO  com.arpan.main.Main_Shopping  - 3)Create an account
+[main] 2021-08-18 15:43:48 INFO  com.arpan.main.Main_Shopping  - 4)EXIT
+[main] 2021-08-18 15:43:48 INFO  com.arpan.main.Main_Shopping  - *******************************
+[main] 2021-08-18 15:43:48 INFO  com.arpan.main.Main_Shopping  - Please enter your choice(1-4):
+[main] 2021-08-18 15:51:09 INFO  com.arpan.main.Main_Shopping  - 		--------------------------------------
+[main] 2021-08-18 15:51:09 INFO  com.arpan.main.Main_Shopping  - 		Welcome to Arpan's Online Shopping App
+[main] 2021-08-18 15:51:09 INFO  com.arpan.main.Main_Shopping  - 		--------------------------------------
+[main] 2021-08-18 15:51:09 INFO  com.arpan.main.Main_Shopping  - *******************************
+[main] 2021-08-18 15:51:09 INFO  com.arpan.main.Main_Shopping  - 1)Login as Admin
+[main] 2021-08-18 15:51:09 INFO  com.arpan.main.Main_Shopping  - 2)Login as Customer
+[main] 2021-08-18 15:51:09 INFO  com.arpan.main.Main_Shopping  - 3)Create an account
+[main] 2021-08-18 15:51:09 INFO  com.arpan.main.Main_Shopping  - 4)EXIT
+[main] 2021-08-18 15:51:09 INFO  com.arpan.main.Main_Shopping  - *******************************
+[main] 2021-08-18 15:51:09 INFO  com.arpan.main.Main_Shopping  - Please enter your choice(1-4):
+[main] 2021-08-18 15:51:13 INFO  com.arpan.main.Main_Shopping  - Thank You!! Visit Again!!
+[main] 2021-08-18 15:51:16 INFO  com.arpan.main.Main_Shopping  - 		--------------------------------------
+[main] 2021-08-18 15:51:16 INFO  com.arpan.main.Main_Shopping  - 		Welcome to Arpan's Online Shopping App
+[main] 2021-08-18 15:51:16 INFO  com.arpan.main.Main_Shopping  - 		--------------------------------------
+[main] 2021-08-18 15:51:16 INFO  com.arpan.main.Main_Shopping  - *******************************
+[main] 2021-08-18 15:51:16 INFO  com.arpan.main.Main_Shopping  - 1)Login as Admin
+[main] 2021-08-18 15:51:16 INFO  com.arpan.main.Main_Shopping  - 2)Login as Customer
+[main] 2021-08-18 15:51:16 INFO  com.arpan.main.Main_Shopping  - 3)Create an account
+[main] 2021-08-18 15:51:16 INFO  com.arpan.main.Main_Shopping  - 4)EXIT
+[main] 2021-08-18 15:51:16 INFO  com.arpan.main.Main_Shopping  - *******************************
+[main] 2021-08-18 15:51:16 INFO  com.arpan.main.Main_Shopping  - Please enter your choice(1-4):
+[main] 2021-08-18 15:51:18 INFO  com.arpan.main.Main_Shopping  - Enter Username:
+[main] 2021-08-18 15:51:32 INFO  com.arpan.main.Main_Shopping  - Enter Password:
+[main] 2021-08-18 15:51:37 INFO  com.arpan.main.Main_Shopping  - 
+!!Welcome!! Arpan Halder !! You are an Admin
+
+[main] 2021-08-18 15:51:37 INFO  com.arpan.main.Main_Shopping  - *********************************************
+[main] 2021-08-18 15:51:37 INFO  com.arpan.main.Main_Shopping  - ---------------------------------------------
+[main] 2021-08-18 15:51:37 INFO  com.arpan.main.Main_Shopping  - -	1)Add New Product
+[main] 2021-08-18 15:51:37 INFO  com.arpan.main.Main_Shopping  - -	3)Change existing product details
+[main] 2021-08-18 15:51:37 INFO  com.arpan.main.Main_Shopping  - -	3)Check new Orders and change status
+[main] 2021-08-18 15:51:37 INFO  com.arpan.main.Main_Shopping  - -	4)Details of all available Product
+[main] 2021-08-18 15:51:37 INFO  com.arpan.main.Main_Shopping  - -	5)Update contact No.
+[main] 2021-08-18 15:51:37 INFO  com.arpan.main.Main_Shopping  - -	6)Change Password
+[main] 2021-08-18 15:51:37 INFO  com.arpan.main.Main_Shopping  - -	7)Logout
+[main] 2021-08-18 15:51:37 INFO  com.arpan.main.Main_Shopping  - -	Please enter your choice(1-6)
+[main] 2021-08-18 15:51:37 INFO  com.arpan.main.Main_Shopping  - ---------------------------------------------
+[main] 2021-08-18 15:51:37 INFO  com.arpan.main.Main_Shopping  - *********************************************
+[main] 2021-08-18 15:51:48 INFO  com.arpan.main.Main_Shopping  - 
+Welcome!! Back to Main Page
+
+[main] 2021-08-18 15:51:48 INFO  com.arpan.main.Main_Shopping  - *******************************
+[main] 2021-08-18 15:51:48 INFO  com.arpan.main.Main_Shopping  - 1)Login as Admin
+[main] 2021-08-18 15:51:48 INFO  com.arpan.main.Main_Shopping  - 2)Login as Customer
+[main] 2021-08-18 15:51:48 INFO  com.arpan.main.Main_Shopping  - 3)Create an account
+[main] 2021-08-18 15:51:48 INFO  com.arpan.main.Main_Shopping  - 4)EXIT
+[main] 2021-08-18 15:51:48 INFO  com.arpan.main.Main_Shopping  - *******************************
+[main] 2021-08-18 15:51:48 INFO  com.arpan.main.Main_Shopping  - Please enter your choice(1-4):
+[main] 2021-08-18 15:51:49 INFO  com.arpan.main.Main_Shopping  - Thank You!! Visit Again!!
+[main] 2021-08-18 15:52:21 INFO  com.arpan.main.Main_Shopping  - 		--------------------------------------
+[main] 2021-08-18 15:52:21 INFO  com.arpan.main.Main_Shopping  - 		Welcome to Arpan's Online Shopping App
+[main] 2021-08-18 15:52:21 INFO  com.arpan.main.Main_Shopping  - 		--------------------------------------
+[main] 2021-08-18 15:52:21 INFO  com.arpan.main.Main_Shopping  - *******************************
+[main] 2021-08-18 15:52:21 INFO  com.arpan.main.Main_Shopping  - 1)Login as Admin
+[main] 2021-08-18 15:52:21 INFO  com.arpan.main.Main_Shopping  - 2)Login as Customer
+[main] 2021-08-18 15:52:21 INFO  com.arpan.main.Main_Shopping  - 3)Create an account
+[main] 2021-08-18 15:52:21 INFO  com.arpan.main.Main_Shopping  - 4)EXIT
+[main] 2021-08-18 15:52:21 INFO  com.arpan.main.Main_Shopping  - *******************************
+[main] 2021-08-18 15:52:21 INFO  com.arpan.main.Main_Shopping  - Please enter your choice(1-4):
+[main] 2021-08-18 15:52:23 INFO  com.arpan.main.Main_Shopping  - Enter Username:
+[main] 2021-08-18 15:52:29 INFO  com.arpan.main.Main_Shopping  - Enter Password:
+[main] 2021-08-18 15:52:38 INFO  com.arpan.main.Main_Shopping  - 
+!!Welcome!! Arpan Halder !! You are an Admin
+
+[main] 2021-08-18 15:52:38 INFO  com.arpan.main.Main_Shopping  - *********************************************
+[main] 2021-08-18 15:52:38 INFO  com.arpan.main.Main_Shopping  - ---------------------------------------------
+[main] 2021-08-18 15:52:38 INFO  com.arpan.main.Main_Shopping  - -	1)Add New Product
+[main] 2021-08-18 15:52:38 INFO  com.arpan.main.Main_Shopping  - -	3)Change existing product details
+[main] 2021-08-18 15:52:38 INFO  com.arpan.main.Main_Shopping  - -	3)Check new Orders and change status
+[main] 2021-08-18 15:52:38 INFO  com.arpan.main.Main_Shopping  - -	4)Details of all available Product
+[main] 2021-08-18 15:52:38 INFO  com.arpan.main.Main_Shopping  - -	5)Update contact No.
+[main] 2021-08-18 15:52:38 INFO  com.arpan.main.Main_Shopping  - -	6)Change Password
+[main] 2021-08-18 15:52:38 INFO  com.arpan.main.Main_Shopping  - -	7)Logout
+[main] 2021-08-18 15:52:38 INFO  com.arpan.main.Main_Shopping  - ---------------------------------------------
+[main] 2021-08-18 15:52:38 INFO  com.arpan.main.Main_Shopping  - *********************************************
+[main] 2021-08-18 15:52:38 INFO  com.arpan.main.Main_Shopping  - -	Please enter your choice(1-6)
+[main] 2021-08-18 15:52:44 INFO  com.arpan.main.Main_Shopping  - Enter Product Name:
+[main] 2021-08-18 15:53:06 INFO  com.arpan.main.Main_Shopping  - Enter Product Price:
+[main] 2021-08-18 15:53:14 INFO  com.arpan.main.Main_Shopping  - Enter Product Qualtity:
+[main] 2021-08-18 15:53:17 INFO  com.arpan.main.Main_Shopping  - Enter Product Type:
+[main] 2021-08-18 15:53:21 INFO  com.arpan.main.Main_Shopping  - Product [product_id=4, product_name=Samsung 42Inch Led, product_price=40000.0, product_count=5, product_type=TV]
+[main] 2021-08-18 15:53:21 INFO  com.arpan.main.Main_Shopping  - Under Construstion
+[main] 2021-08-18 15:53:21 INFO  com.arpan.main.Main_Shopping  - *********************************************
+[main] 2021-08-18 15:53:21 INFO  com.arpan.main.Main_Shopping  - ---------------------------------------------
+[main] 2021-08-18 15:53:21 INFO  com.arpan.main.Main_Shopping  - -	1)Add New Product
+[main] 2021-08-18 15:53:21 INFO  com.arpan.main.Main_Shopping  - -	3)Change existing product details
+[main] 2021-08-18 15:53:21 INFO  com.arpan.main.Main_Shopping  - -	3)Check new Orders and change status
+[main] 2021-08-18 15:53:21 INFO  com.arpan.main.Main_Shopping  - -	4)Details of all available Product
+[main] 2021-08-18 15:53:21 INFO  com.arpan.main.Main_Shopping  - -	5)Update contact No.
+[main] 2021-08-18 15:53:21 INFO  com.arpan.main.Main_Shopping  - -	6)Change Password
+[main] 2021-08-18 15:53:21 INFO  com.arpan.main.Main_Shopping  - -	7)Logout
+[main] 2021-08-18 15:53:21 INFO  com.arpan.main.Main_Shopping  - ---------------------------------------------
+[main] 2021-08-18 15:53:21 INFO  com.arpan.main.Main_Shopping  - *********************************************
+[main] 2021-08-18 15:53:21 INFO  com.arpan.main.Main_Shopping  - -	Please enter your choice(1-6)
+[main] 2021-08-18 15:54:11 INFO  com.arpan.main.Main_Shopping  - 
+Welcome!! Back to Main Page
+
+[main] 2021-08-18 15:54:11 INFO  com.arpan.main.Main_Shopping  - *******************************
+[main] 2021-08-18 15:54:11 INFO  com.arpan.main.Main_Shopping  - 1)Login as Admin
+[main] 2021-08-18 15:54:11 INFO  com.arpan.main.Main_Shopping  - 2)Login as Customer
+[main] 2021-08-18 15:54:11 INFO  com.arpan.main.Main_Shopping  - 3)Create an account
+[main] 2021-08-18 15:54:11 INFO  com.arpan.main.Main_Shopping  - 4)EXIT
+[main] 2021-08-18 15:54:11 INFO  com.arpan.main.Main_Shopping  - *******************************
+[main] 2021-08-18 15:54:11 INFO  com.arpan.main.Main_Shopping  - Please enter your choice(1-4):
+[main] 2021-08-18 15:54:13 INFO  com.arpan.main.Main_Shopping  - Thank You!! Visit Again!!
+[main] 2021-08-18 16:05:51 INFO  com.arpan.main.Main_Shopping  - 		--------------------------------------
+[main] 2021-08-18 16:05:51 INFO  com.arpan.main.Main_Shopping  - 		Welcome to Arpan's Online Shopping App
+[main] 2021-08-18 16:05:51 INFO  com.arpan.main.Main_Shopping  - 		--------------------------------------
+[main] 2021-08-18 16:05:51 INFO  com.arpan.main.Main_Shopping  - *******************************
+[main] 2021-08-18 16:05:51 INFO  com.arpan.main.Main_Shopping  - 1)Login as Admin
+[main] 2021-08-18 16:05:51 INFO  com.arpan.main.Main_Shopping  - 2)Login as Customer
+[main] 2021-08-18 16:05:51 INFO  com.arpan.main.Main_Shopping  - 3)Create an account
+[main] 2021-08-18 16:05:51 INFO  com.arpan.main.Main_Shopping  - 4)EXIT
+[main] 2021-08-18 16:05:51 INFO  com.arpan.main.Main_Shopping  - *******************************
+[main] 2021-08-18 16:05:51 INFO  com.arpan.main.Main_Shopping  - Please enter your choice(1-4):
+[main] 2021-08-18 16:06:04 INFO  com.arpan.main.Main_Shopping  - Enter Username:
+[main] 2021-08-18 16:06:13 INFO  com.arpan.main.Main_Shopping  - Enter Password:
+[main] 2021-08-18 16:06:23 INFO  com.arpan.main.Main_Shopping  - 
+!!Welcome!! Arpan Halder !! You are an Admin
+
+[main] 2021-08-18 16:06:23 INFO  com.arpan.main.Main_Shopping  - *********************************************
+[main] 2021-08-18 16:06:23 INFO  com.arpan.main.Main_Shopping  - ---------------------------------------------
+[main] 2021-08-18 16:06:23 INFO  com.arpan.main.Main_Shopping  - -	1)Add New Product
+[main] 2021-08-18 16:06:23 INFO  com.arpan.main.Main_Shopping  - -	3)Change existing product details
+[main] 2021-08-18 16:06:23 INFO  com.arpan.main.Main_Shopping  - -	3)Check new Orders and change status
+[main] 2021-08-18 16:06:23 INFO  com.arpan.main.Main_Shopping  - -	4)Details of all available Product
+[main] 2021-08-18 16:06:23 INFO  com.arpan.main.Main_Shopping  - -	5)Update contact No.
+[main] 2021-08-18 16:06:23 INFO  com.arpan.main.Main_Shopping  - -	6)Change Password
+[main] 2021-08-18 16:06:23 INFO  com.arpan.main.Main_Shopping  - -	7)Logout
+[main] 2021-08-18 16:06:23 INFO  com.arpan.main.Main_Shopping  - ---------------------------------------------
+[main] 2021-08-18 16:06:23 INFO  com.arpan.main.Main_Shopping  - *********************************************
+[main] 2021-08-18 16:06:23 INFO  com.arpan.main.Main_Shopping  - Please enter your choice(1-7)
+[main] 2021-08-18 16:06:25 INFO  com.arpan.main.Main_Shopping  - Enter Product Name:
+[main] 2021-08-18 16:06:55 INFO  com.arpan.main.Main_Shopping  - Enter Product Price:
+[main] 2021-08-18 16:07:02 INFO  com.arpan.main.Main_Shopping  - Enter Product Qualtity:
+[main] 2021-08-18 16:07:07 INFO  com.arpan.main.Main_Shopping  - Enter Product Type:
+[main] 2021-08-18 16:07:13 INFO  com.arpan.main.Main_Shopping  - Product [product_id=5, product_name=Wrong Casual Shirt, product_price=1599.0, product_count=35, product_type=Men Dress]
+
+[main] 2021-08-18 16:07:13 INFO  com.arpan.main.Main_Shopping  - Under Construstion
+[main] 2021-08-18 16:07:13 INFO  com.arpan.main.Main_Shopping  - *********************************************
+[main] 2021-08-18 16:07:13 INFO  com.arpan.main.Main_Shopping  - ---------------------------------------------
+[main] 2021-08-18 16:07:13 INFO  com.arpan.main.Main_Shopping  - -	1)Add New Product
+[main] 2021-08-18 16:07:13 INFO  com.arpan.main.Main_Shopping  - -	3)Change existing product details
+[main] 2021-08-18 16:07:13 INFO  com.arpan.main.Main_Shopping  - -	3)Check new Orders and change status
+[main] 2021-08-18 16:07:13 INFO  com.arpan.main.Main_Shopping  - -	4)Details of all available Product
+[main] 2021-08-18 16:07:13 INFO  com.arpan.main.Main_Shopping  - -	5)Update contact No.
+[main] 2021-08-18 16:07:13 INFO  com.arpan.main.Main_Shopping  - -	6)Change Password
+[main] 2021-08-18 16:07:13 INFO  com.arpan.main.Main_Shopping  - -	7)Logout
+[main] 2021-08-18 16:07:13 INFO  com.arpan.main.Main_Shopping  - ---------------------------------------------
+[main] 2021-08-18 16:07:13 INFO  com.arpan.main.Main_Shopping  - *********************************************
+[main] 2021-08-18 16:07:13 INFO  com.arpan.main.Main_Shopping  - Please enter your choice(1-7)
+[main] 2021-08-18 16:07:33 INFO  com.arpan.main.Main_Shopping  - Enter Product Name:
+[main] 2021-08-18 16:07:56 INFO  com.arpan.main.Main_Shopping  - Enter Product Price:
+[main] 2021-08-18 16:08:00 INFO  com.arpan.main.Main_Shopping  - Enter Product Qualtity:
+[main] 2021-08-18 16:08:05 INFO  com.arpan.main.Main_Shopping  - Enter Product Type:
+[main] 2021-08-18 16:08:10 INFO  com.arpan.main.Main_Shopping  - Product Already exist!! Choose option 2 for Update Existing Product
+[main] 2021-08-18 16:08:10 INFO  com.arpan.main.Main_Shopping  - null
+
+[main] 2021-08-18 16:08:10 INFO  com.arpan.main.Main_Shopping  - Under Construstion
+[main] 2021-08-18 16:08:10 INFO  com.arpan.main.Main_Shopping  - *********************************************
+[main] 2021-08-18 16:08:10 INFO  com.arpan.main.Main_Shopping  - ---------------------------------------------
+[main] 2021-08-18 16:08:10 INFO  com.arpan.main.Main_Shopping  - -	1)Add New Product
+[main] 2021-08-18 16:08:10 INFO  com.arpan.main.Main_Shopping  - -	3)Change existing product details
+[main] 2021-08-18 16:08:10 INFO  com.arpan.main.Main_Shopping  - -	3)Check new Orders and change status
+[main] 2021-08-18 16:08:10 INFO  com.arpan.main.Main_Shopping  - -	4)Details of all available Product
+[main] 2021-08-18 16:08:10 INFO  com.arpan.main.Main_Shopping  - -	5)Update contact No.
+[main] 2021-08-18 16:08:10 INFO  com.arpan.main.Main_Shopping  - -	6)Change Password
+[main] 2021-08-18 16:08:10 INFO  com.arpan.main.Main_Shopping  - -	7)Logout
+[main] 2021-08-18 16:08:10 INFO  com.arpan.main.Main_Shopping  - ---------------------------------------------
+[main] 2021-08-18 16:08:10 INFO  com.arpan.main.Main_Shopping  - *********************************************
+[main] 2021-08-18 16:08:10 INFO  com.arpan.main.Main_Shopping  - Please enter your choice(1-7)
+[main] 2021-08-18 16:18:26 INFO  com.arpan.main.Main_Shopping  - 
+Logout!! Back to Main Page
+
+[main] 2021-08-18 16:18:26 INFO  com.arpan.main.Main_Shopping  - *******************************
+[main] 2021-08-18 16:18:26 INFO  com.arpan.main.Main_Shopping  - 1)Login as Admin
+[main] 2021-08-18 16:18:26 INFO  com.arpan.main.Main_Shopping  - 2)Login as Customer
+[main] 2021-08-18 16:18:26 INFO  com.arpan.main.Main_Shopping  - 3)Create an account
+[main] 2021-08-18 16:18:26 INFO  com.arpan.main.Main_Shopping  - 4)EXIT
+[main] 2021-08-18 16:18:26 INFO  com.arpan.main.Main_Shopping  - *******************************
+[main] 2021-08-18 16:18:26 INFO  com.arpan.main.Main_Shopping  - Please enter your choice(1-4):
+[main] 2021-08-18 16:18:28 INFO  com.arpan.main.Main_Shopping  - Thank You!! Visit Again!!

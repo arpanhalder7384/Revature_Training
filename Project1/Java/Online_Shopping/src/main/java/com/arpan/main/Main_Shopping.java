@@ -6,8 +6,11 @@ import org.apache.log4j.Logger;
 import com.arpan.exception.BusinessException;
 import com.arpan.model.Admin;
 import com.arpan.model.Customer;
+import com.arpan.model.Product;
 import com.arpan.service.loginValidation.LoginValidationService;
 import com.arpan.service.loginValidation.impl.LoginValidationServiceImpl;
+import com.arpan.service.AddProduct.AddProductService;
+import com.arpan.service.AddProduct.impl.AddProductServiceImpl;
 
 public class Main_Shopping {
 	private static Logger log = Logger.getLogger(Main_Shopping.class);
@@ -22,7 +25,7 @@ public class Main_Shopping {
 			log.info("*******************************");
 			log.info("1)Login as Admin");
 			log.info("2)Login as Customer");
-			log.info("3)Create an account");
+			log.info("3)Register a new Customer");
 			log.info("4)EXIT");
 			log.info("*******************************");
 			log.info("Please enter your choice(1-4):");
@@ -43,8 +46,6 @@ public class Main_Shopping {
 				try {
 					admin = loginval.adminLoginValidation(uname,pass);
 				} catch (BusinessException e1) {
-					// TODO Auto-generated catch block
-					e1.printStackTrace();
 				}
 				if(admin!=null)
 				{
@@ -53,15 +54,16 @@ public class Main_Shopping {
 					do {
 						log.info("*********************************************");
 						log.info("---------------------------------------------");
-						log.info("-\t1)Add new Product");
-						log.info("-\t2)Check new Orders and change status");
+						log.info("-\t1)Add New Product");
 						log.info("-\t3)Change existing product details");
-						log.info("-\t4)Update contact No.");
-						log.info("-\t5)Change Password");
-						log.info("-\t6)Logout");
-						log.info("-\tPlease enter your choice(1-6)");
+						log.info("-\t3)Check new Orders and change status");
+						log.info("-\t4)Details of all available Product");
+						log.info("-\t5)Update contact No.");
+						log.info("-\t6)Change Password");
+						log.info("-\t7)Logout");
 						log.info("---------------------------------------------");
 						log.info("*********************************************");
+						log.info("Please enter your choice(1-7)");
 						try {
 							option = Integer.parseInt(sc.nextLine());
 						} 
@@ -69,8 +71,26 @@ public class Main_Shopping {
 						}
 						switch(option) {
 						case 1:
-							log.info("Under Construstion");
-							break;
+							Product product=new Product();
+							log.info("Enter Product Name:");
+							product.setProduct_name(sc.nextLine());
+							log.info("Enter Product Price:");
+							product.setProduct_price(Double.parseDouble(sc.nextLine()));
+							log.info("Enter Product Qualtity:");
+							product.setProduct_count(Integer.parseInt(sc.nextLine()));
+							log.info("Enter Product Type:");
+							product.setProduct_type(sc.nextLine());
+							AddProductService addNewProduct=new AddProductServiceImpl();
+							try {
+								product=addNewProduct.addNewProduct(product);
+								if(product==null) {
+									log.info("Product Already exist!! Choose option 2 for Update Existing Product");
+								}
+								else {
+									log.info(product+"\n");
+									}
+							} catch (BusinessException e) {
+							}
 						case 2:
 							log.info("Under Construstion");
 							break;
@@ -84,14 +104,17 @@ public class Main_Shopping {
 							log.info("Under Construstion");
 							break;
 						case 6:
-							log.info("\nWelcome!! Back to Main Page\n");
+							log.info("Under Construstion");
+							break;
+						case 7:
+							log.info("\nLogout!! Back to Main Page\n");
 							break;
 						default:
 							log.info("Enter a valid number between 1 to 6. Please try again:\\n");
 							break;
 						}
 					}
-					while(option!=6);
+					while(option!=7);
 				}
 				break;
 			case 2:
