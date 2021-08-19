@@ -1,6 +1,7 @@
 package com.arpan.model;
 
 public class Product {
+	private int serialno;
 	private int product_id;
 	private String product_name;
 	private Double product_price;
@@ -17,6 +18,20 @@ public class Product {
 		this.product_price = product_price;
 		this.product_count = product_count;
 		this.product_type = product_type;
+	}
+	public Product(String product_name, Double product_price, int product_count) {
+		super();
+		this.product_name = product_name;
+		this.product_price = product_price;
+		this.product_count = product_count;
+	}
+	
+	public int getSerialno() {
+		return serialno;
+	}
+
+	public void setSerialno(int serialno) {
+		this.serialno = serialno;
 	}
 
 	public int getProduct_id() {
@@ -56,5 +71,12 @@ public class Product {
 				+ product_price + ", product_count=" + product_count + ", product_type=" + product_type + "]";
 	}
 
-		
+	public void getProductDetails()
+	{
+		System.out.printf("%-30s %-15.2f %-15d %-15s\n",this.product_name,this.product_price,this.product_count,this.product_type);
+	}
+	public void getProductDetailsByCart()
+	{
+		System.out.printf("%-8d %-30s %-15d %-15.2f\n",this.serialno,this.product_name,this.product_count,this.product_price);
+	}
 }

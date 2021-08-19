@@ -13,10 +13,8 @@ import com.arpan.main.Main_Shopping;
 import com.arpan.model.Admin;
 import com.arpan.model.Customer;
 import com.arpan.model.Product;
-import com.arpan.service.loginValidation.LoginValidationService;
-import com.arpan.service.loginValidation.impl.LoginValidationServiceImpl;
-import com.arpan.service.AddProduct.AddProductService;
-import com.arpan.service.AddProduct.impl.AddProductServiceImpl;
+import com.arpan.service.productService.ProductService;
+import com.arpan.service.productService.impl.ProductServiceImpl;
 import com.arpan.dao.ProductDAO;
 import com.arpan.dao.dbutil.MySqlDbConnectionClass;
 
@@ -57,14 +55,43 @@ public class ProductDAOImpl implements  ProductDAO{
 	}
 
 	@Override
-	public int getProductDetails() throws BusinessException {
+	public Product getProductDetails() throws BusinessException {
 		// TODO Auto-generated method stub
-		return 0;
+		return null;
 	}
 
 	@Override
 	public List<Product> getAllProduct() throws BusinessException {
+		List<Product> productList=new ArrayList<>();
+		try (Connection connection = MySqlDbConnectionClass.getConnection()) {
+			String sql="select product_id,product_name, product_price,product_count, product_type from product";
+			PreparedStatement preparedStatement=connection.prepareStatement(sql);
+			ResultSet resultSet=preparedStatement.executeQuery();
+			while(resultSet.next())
+			{
+				Product product=new Product();
+				product.setProduct_id(resultSet.getInt("product_id"));
+				product.setProduct_name(resultSet.getString("product_name"));
+				product.setProduct_count(resultSet.getInt("product_count"));
+				product.setProduct_price(resultSet.getDouble("product_price"));
+				product.setProduct_type(resultSet.getString("product_type"));
+				productList.add(product);
+			}
+		}
+		catch (ClassNotFoundException | SQLException e) {
+			System.out.println(e);
+			throw new BusinessException("Internal Error occured contact sysadmin");
+		}
+		if(productList.size()==0)
+		{
+			return null;
+		}
+		return productList;
+	}
+
+	@Override
+	public int addExistingProduct() throws BusinessException {
 		// TODO Auto-generated method stub
-		return null;
+		return 0;
 	}
 }

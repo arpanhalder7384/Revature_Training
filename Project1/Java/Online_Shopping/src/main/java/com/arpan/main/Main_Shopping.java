@@ -4,13 +4,21 @@ import java.util.*;
 import org.apache.log4j.Logger;
 
 import com.arpan.exception.BusinessException;
+
 import com.arpan.model.Admin;
 import com.arpan.model.Customer;
 import com.arpan.model.Product;
-import com.arpan.service.loginValidation.LoginValidationService;
-import com.arpan.service.loginValidation.impl.LoginValidationServiceImpl;
-import com.arpan.service.AddProduct.AddProductService;
-import com.arpan.service.AddProduct.impl.AddProductServiceImpl;
+
+import com.arpan.service.adminService.AdminService;
+import com.arpan.service.adminService.impl.AdminServiceImpl;
+import com.arpan.service.cartService.CartService;
+import com.arpan.service.cartService.impl.CartServiceImpl;
+import com.arpan.service.customerService.CustomerService;
+import com.arpan.service.customerService.impl.CustomerServiceImpl;
+import com.arpan.service.orderService.OrderService;
+import com.arpan.service.orderService.impl.OrderServiceImpl;
+import com.arpan.service.productService.ProductService;
+import com.arpan.service.productService.impl.ProductServiceImpl;
 
 public class Main_Shopping {
 	private static Logger log = Logger.getLogger(Main_Shopping.class);
@@ -22,12 +30,14 @@ public class Main_Shopping {
 
 		int ch = 0;
 		do {
-			log.info("*******************************");
-			log.info("1)Login as Admin");
-			log.info("2)Login as Customer");
-			log.info("3)Register a new Customer");
-			log.info("4)EXIT");
-			log.info("*******************************");
+			log.info("***********************************");
+			log.info("-----------------------------------");
+			log.info("-\t1)Login as Admin");
+			log.info("-\t2)Login as Customer");
+			log.info("-\t3)Register a new Customer");
+			log.info("-\t4)EXIT");
+			log.info("-----------------------------------");
+			log.info("***********************************");
 			log.info("Please enter your choice(1-4):");
 
 			try {
@@ -35,17 +45,18 @@ public class Main_Shopping {
 			} 
 			catch (NumberFormatException e) {
 			}
-			LoginValidationService loginval=new LoginValidationServiceImpl();
 			switch (ch) {
 			case 1:
+				AdminService adminService=new AdminServiceImpl();
 				log.info("Enter Username:");
 				String uname=sc.nextLine();
 				log.info("Enter Password:");
 				String pass=sc.nextLine();
 				Admin admin=null;
 				try {
-					admin = loginval.adminLoginValidation(uname,pass);
+					admin = adminService.adminLoginValidation(uname,pass);
 				} catch (BusinessException e1) {
+					log.error(e1);
 				}
 				if(admin!=null)
 				{
@@ -55,12 +66,13 @@ public class Main_Shopping {
 						log.info("*********************************************");
 						log.info("---------------------------------------------");
 						log.info("-\t1)Add New Product");
-						log.info("-\t3)Change existing product details");
+						log.info("-\t2)Change existing product details");
 						log.info("-\t3)Check new Orders and change status");
 						log.info("-\t4)Details of all available Product");
-						log.info("-\t5)Update contact No.");
-						log.info("-\t6)Change Password");
-						log.info("-\t7)Logout");
+						log.info("-\t5)Search Customer By Various Fields:");
+						log.info("-\t6)Update contact No.");
+						log.info("-\t7)Change Password");
+						log.info("-\t8)Logout");
 						log.info("---------------------------------------------");
 						log.info("*********************************************");
 						log.info("Please enter your choice(1-7)");
@@ -68,6 +80,7 @@ public class Main_Shopping {
 							option = Integer.parseInt(sc.nextLine());
 						} 
 						catch (NumberFormatException e) {
+							log.error(e);
 						}
 						switch(option) {
 						case 1:
@@ -80,7 +93,7 @@ public class Main_Shopping {
 							product.setProduct_count(Integer.parseInt(sc.nextLine()));
 							log.info("Enter Product Type:");
 							product.setProduct_type(sc.nextLine());
-							AddProductService addNewProduct=new AddProductServiceImpl();
+							ProductService addNewProduct=new ProductServiceImpl();
 							try {
 								product=addNewProduct.addNewProduct(product);
 								if(product==null) {
@@ -90,6 +103,7 @@ public class Main_Shopping {
 									log.info(product+"\n");
 									}
 							} catch (BusinessException e) {
+								log.error(e);
 							}
 						case 2:
 							log.info("Under Construstion");
@@ -98,7 +112,21 @@ public class Main_Shopping {
 							log.info("Under Construstion");
 							break;
 						case 4:
-							log.info("Under Construstion");
+							ProductService productService=new ProductServiceImpl();
+							try {
+								List<Product> productList=productService.getAllProduct();
+								log.info("Available product details:\n");
+								System.out.printf("%-30s %-15s %-15s %-15s\n","Product Name","Price","Available","Product Type");
+								System.out.println("----------------------------------------------------------------------------");
+								for(Product p:productList)
+								{
+									p.getProductDetails();
+								}
+								log.info("\n");
+							} catch (BusinessException e) {
+								// TODO Auto-generated catch block
+								log.error(e);
+							}
 							break;
 						case 5:
 							log.info("Under Construstion");
@@ -107,6 +135,9 @@ public class Main_Shopping {
 							log.info("Under Construstion");
 							break;
 						case 7:
+							log.info("Under Construstion");
+							break;
+						case 8:
 							log.info("\nLogout!! Back to Main Page\n");
 							break;
 						default:
@@ -114,20 +145,21 @@ public class Main_Shopping {
 							break;
 						}
 					}
-					while(option!=7);
+					while(option!=8);
 				}
 				break;
 			case 2:
+				CustomerService customerService=new CustomerServiceImpl();
 				log.info("Enter Username:");
-				String cus_uname=sc.nextLine();
+				String username=sc.nextLine();
 				log.info("Enter Password:");
-				String cus_pass=sc.nextLine();
+				String password=sc.nextLine();
 				Customer customer=null;
 				try {
-					customer = loginval.customerLoginValidation(cus_uname, cus_pass);
+					customer = customerService.customerLoginValidation(username, password);
 				} catch (BusinessException e1) {
 					// TODO Auto-generated catch block
-					e1.printStackTrace();
+					log.error(e1);
 				}
 				if(customer!=null)
 				{
@@ -136,14 +168,16 @@ public class Main_Shopping {
 					do {
 						log.info("**********************************************");
 						log.info("----------------------------------------------");
-						log.info("-\t1)Buy new product(Search)");
-						log.info("-\t2)Check your order status");
-						log.info("-\t3)Go to Cart");
-						log.info("-\t4)Change received order status");
-						log.info("-\t5)Preavious order details");
-						log.info("-\t6)Update contact No.");
-						log.info("-\t7)Change Password");
-						log.info("-\t8)Logout");
+						log.info("-\t1)Add new product to cart(Search)");
+						log.info("-\t2)Go to Cart");
+						log.info("-\t3)Remove item from Cart");
+						log.info("-\t4)Place Order");
+						log.info("-\t5)Check your order status");
+						log.info("-\t6)Change received order status");
+						log.info("-\t7)Preavious order details");
+						log.info("-\t8)Update contact No.");
+						log.info("-\t9)Change Password");
+						log.info("-\t10)Logout");
 						log.info("-\tPlease enter your choice between(1-6)");
 						log.info("----------------------------------------------");
 						log.info("**********************************************");
@@ -154,16 +188,96 @@ public class Main_Shopping {
 						}
 						switch(option) {
 						case 1:
-							log.info("Under Construstion");
+							ProductService productService=new ProductServiceImpl();
+							try {
+								List<Product> productList=productService.getAllProduct();
+								if(productList==null)
+								{
+									log.info("No Product Available");
+									break;
+								}
+								log.info("Available product details:\n");
+								System.out.printf("%-30s %-15s %-15s %-15s\n","Product Name","Price","Available","Product Type");
+								System.out.println("----------------------------------------------------------------------------");
+								for(Product p:productList)
+								{
+									p.getProductDetails();
+								}
+								log.info("\n");
+								log.info("Enter Product name from above table:");
+								String pname=sc.nextLine();
+								log.info("Enter no of procuct you want to buy:");
+								int pQuantity=Integer.parseInt(sc.nextLine());
+								CartService cart=new CartServiceImpl();
+								Product product=null;
+								for(Product p:productList)
+								{
+									if(p.getProduct_name().equals(pname)) {
+									product=p;}
+								}
+								boolean t=cart.addToCart(product,pQuantity,customer.getCus_id());
+								if(t==true)
+								{
+									log.info("\nProduct is added to Cart\n");
+								}
+								else {
+									log.info("Protuct is not added to cart");
+								}
+							} catch (BusinessException e) {
+								// TODO Auto-generated catch block
+								log.error(e);
+							}
+							
 							break;
 						case 2:
-							log.info("Under Construstion");
+							CartService cart=new CartServiceImpl();
+							try {
+								List<Product> productList=cart.getCartDetails(customer);
+								if(productList.size()==0)
+								{
+									log.info("\nNo Item in Your Cart\n");
+								}
+								else {
+									log.info("Available product in your cart:\n");
+									System.out.printf("%-8s %-20s %-15s %-15s\n","CartID","Product Name","No. of Item","Price");
+									System.out.println("----------------------------------------------------------");
+									double total=0.0;
+									for(Product p:productList)
+									{
+										p.getProductDetailsByCart();
+										total+=p.getProduct_price();
+									}
+									log.info("\n\tTotal Price of all items in your car is: "+total);
+								}
+							} catch (BusinessException e) {
+								
+								e.printStackTrace();
+							}
 							break;
 						case 3:
 							log.info("Under Construstion");
 							break;
 						case 4:
-							log.info("Under Construstion");
+							CartService cart2=new CartServiceImpl();
+							OrderService orderService =new OrderServiceImpl();
+							try {
+								List<Product> productList=cart2.getCartDetails(customer);
+								for(Product product:productList) {
+									log.info(product.getProduct_id());
+									boolean t=orderService.placeOrder(customer.getCus_id(),product);
+									if(t==true)
+									{
+										log.info("\nOrder of "+product.getProduct_name()+ " is Placed\n");
+									}
+									else {
+										log.info("\nUnimplemented Error");
+									}
+								}
+							} catch (BusinessException e) {
+								// TODO Auto-generated catch block
+								log.error(e);
+							}
+							
 							break;
 						case 5:
 							log.info("Under Construstion");
@@ -174,16 +288,42 @@ public class Main_Shopping {
 						case 7:
 							log.info("Under Construstion");
 							break;
+						case 8:
+							log.info("Under Construstion");
+							break;
+						case 9:
+							log.info("Under Construstion");
+							break;
+						case 10:
+							log.info("nLogout!! Back to Main Page\\n");
+							break;
 						default:
 							log.info("Enter a valid number between 1 to 7. Please try again:\\n");
 							break;
 						}						
 					}
-					while(option!=7);
+					while(option!=10);
 				}
 				break;
 			case 3:
-				log.info("Constructing");
+				Customer customernew=new Customer();
+				log.info("Enter new Email id:");
+				customernew.setEmail_id(sc.nextLine());
+				log.info("Enter Full Name:");
+				customernew.setName(sc.nextLine());
+				log.info("Enter password:");
+				customernew.setPassword(sc.nextLine());
+				log.info("Enter Contact No.:");
+				customernew.setContact(Long.parseLong(sc.nextLine()));
+				CustomerService customerService2=new CustomerServiceImpl();
+				try {
+					customer=customerService2.createNewCustomer(customernew);
+					log.info("Below the details of new Customer");
+					log.info(customer+"\n");
+				} catch (BusinessException e) {
+					// TODO Auto-generated catch block
+					log.error(e);
+				}
 				break;
 			case 4:
 				log.info("Thank You!! Visit Again!!");

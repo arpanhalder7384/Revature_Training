@@ -10,7 +10,40 @@ public class Customer {
 	String name;
 	String email_id;
 	long contact;
+	private String password;
 	
+	public Customer() {
+		
+	}
+	public Customer(String name, String email_id, long contact) {
+		super();
+		this.name = name;
+		this.email_id = email_id;
+		this.contact = contact;
+	}
+	
+	
+	public Customer(String name, String email_id, long contact, String password) {
+		super();
+		this.name = name;
+		this.email_id = email_id;
+		this.contact = contact;
+		this.password = password;
+	}
+	public Customer(int cus_id, String name, String email_id, long contact, String password) {
+		super();
+		this.cus_id = cus_id;
+		this.name = name;
+		this.email_id = email_id;
+		this.contact = contact;
+		this.password = password;
+	}
+	public String getPassword() {
+		return password;
+	}
+	public void setPassword(String password) {
+		this.password = password;
+	}
 	public int getCus_id() {
 		return cus_id;
 	}
