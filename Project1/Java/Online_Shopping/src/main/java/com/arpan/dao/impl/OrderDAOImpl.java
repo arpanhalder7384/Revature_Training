@@ -29,9 +29,10 @@ public class OrderDAOImpl implements OrderDAO{
 	public boolean placeOrder(int customerId, Product product) throws BusinessException {
 		boolean t=false;
 		try(Connection connection=MySqlDbConnectionClass.getConnection()){
-			String sqll="Select no_of_item from cart where cus_id=?";
+			String sqll="Select no_of_item from cart where cus_id=? and product_id=?";
 			PreparedStatement preparedStatement0=connection.prepareStatement(sqll);
 			preparedStatement0.setInt(1, customerId);
+			preparedStatement0.setInt(2, product.getProduct_id());
 			ResultSet resultSet=preparedStatement0.executeQuery();
 			int count=0;
 			if(resultSet.next())
@@ -47,14 +48,11 @@ public class OrderDAOImpl implements OrderDAO{
 			
 			int c=preparedStatement.executeUpdate();
 			
-			String sql2="delete from cart where cus_id=?";
+			String sql2="delete from cart where cus_id=? and product_id=?";
 			PreparedStatement preparedStatement2=connection.prepareStatement(sql2);
 			preparedStatement2.setInt(1, customerId);
+			preparedStatement2.setInt(2, product.getProduct_id());
 			int i=preparedStatement2.executeUpdate();
-			if(i>0)
-			{
-				log.info("Now Cart is Empty");
-			}
 			
 			if(c==1)
 			{
@@ -72,17 +70,17 @@ public class OrderDAOImpl implements OrderDAO{
 	public List<Ordered> getOrderDetails(Customer customer) throws BusinessException {
 		List<Ordered> orderedList=new ArrayList<>();
 		try(Connection connection=MySqlDbConnectionClass.getConnection()){
-			String sql="select order_id,product_name,o.product_count, product_price, status from ordered o join product p where cus_id=?";
+			String sql="select order_id,product_name,o.product_count, product_price, status from ordered o join product p where cus_id=? and p.product_id=o.product_id";
 			PreparedStatement preparedStatement=connection.prepareStatement(sql);
 			preparedStatement.setInt(1, customer.getCus_id());
 			ResultSet resultSet=preparedStatement.executeQuery();
-			if(resultSet.next())
+			while(resultSet.next())
 			{
 				Ordered ordered=new Ordered();
 				ordered.setOrder_id(resultSet.getInt("order_id"));
 				ordered.setProductName(resultSet.getString("product_name"));
 				ordered.setProduct_count(resultSet.getInt("product_count"));
-				ordered.setPrice(resultSet.getDouble("product_price"));
+				ordered.setPrice(resultSet.getDouble("product_price")*resultSet.getInt("product_count"));
 				ordered.setStatus(resultSet.getString("status"));
 				orderedList.add(ordered);
 			}
@@ -90,6 +88,10 @@ public class OrderDAOImpl implements OrderDAO{
 			{
 				return null;
 			}
+//			for(Ordered o:orderedList)
+//			{
+//				System.out.println(o);
+//			}
 			return orderedList;
 		}catch (ClassNotFoundException | SQLException e) {
 			log.error(e);

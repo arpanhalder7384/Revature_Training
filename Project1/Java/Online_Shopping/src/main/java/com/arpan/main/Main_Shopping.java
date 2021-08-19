@@ -294,6 +294,10 @@ public class Main_Shopping {
 							OrderService orderService =new OrderServiceImpl();
 							try {
 								List<Product> productList=cart2.getCartDetails(customer);
+								if(productList.size()==0)
+								{
+									log.info("\nNo products are added into cart\n");
+								}
 								for(Product product:productList) {
 									boolean t=orderService.placeOrder(customer.getCus_id(),product);
 									if(t==true)
@@ -318,6 +322,7 @@ public class Main_Shopping {
 								if(orderedList==null)
 								{
 									log.info("\nYou have not placed any order\n");
+									break;
 								}
 								System.out.printf("%-15s %-25s %-15s %-18s %-20s\n", "Order_Id", "Product_Name", "Produt_Quantity","Price","Order_Status");
 								System.out.println("------------------------------------------------------------------"
