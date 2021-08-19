@@ -126,17 +126,19 @@ public class Main_Shopping {
 										ordered.getOrderDetails();
 									}
 									log.info("\n");
-//								log.info("\nNo of new placed order: "+n+"\n");
-////								boolean b=adminService.changeOrderStatusToShipped();
-////								if(b==false)
-////								{
-////									log.info("\n All orders are shipped.\n");
-//									}
+									log.info("Enter order id to make the order shipped:");
+									
+									int orderID=Integer.parseInt(sc.nextLine());
+									boolean b=adminService.changeOrderStatusToShipped(orderID);
 								}
 								else {
 									log.info("\nNo new order placed\n");
 								}
-							} catch (BusinessException e1) {
+							}catch(NumberFormatException e)
+							{
+								log.error(e);
+							}
+							catch (BusinessException e1) {
 								log.error(e1);
 							}
 							break;

@@ -129,16 +129,16 @@ public class OrderDAOImpl implements OrderDAO{
 	public List<Ordered> getAllNewPlacedOrder() throws BusinessException {
 		List<Ordered> orderedList=new ArrayList<>();
 		try (Connection connection = MySqlDbConnectionClass.getConnection()) {
-			String sql="select order_id,product_name,product_count, product_price, status from ordered o join product p where status=\"Order Placed\"";
+			String sql="select  order_id,product_name,o.product_count, product_price, status from ordered o join product p where status=\"Order Placed\" and o.product_id=p.product_id";
 			PreparedStatement preparedStatement=connection.prepareStatement(sql);
 			ResultSet resultSet=preparedStatement.executeQuery();
-			if(resultSet.next())
+			while(resultSet.next())
 			{
 				Ordered ordered=new Ordered();
 				ordered.setOrder_id(resultSet.getInt("order_id"));
 				ordered.setProductName(resultSet.getString("product_name"));
 				ordered.setProduct_count(resultSet.getInt("product_count"));
-				ordered.setPrice(resultSet.getDouble("product_price"));
+				ordered.setPrice(resultSet.getDouble("product_price")*resultSet.getInt("product_count"));
 				ordered.setStatus(resultSet.getString("status"));
 				orderedList.add(ordered);
 			}

@@ -60,9 +60,22 @@ public class AdminDAOImpl implements AdminDAO{
 		return false;
 	}
 	@Override
-	public boolean changeOrderStatusToShipped() throws BusinessException {
-		
+	public boolean changeOrderStatusToShipped(int orderId) throws BusinessException {
+		try (Connection connection = MySqlDbConnectionClass.getConnection()) {
+			String sql="update ordered set status=\"Order Shipped\" where order_id=?";
+			PreparedStatement preparedStatement=connection.prepareStatement(sql);
+			preparedStatement.setInt(1,orderId);
+			int c=preparedStatement.executeUpdate();
+			if(c>0)
+			{
+				log.info("OrderID: "+orderId+ " is shipped");
+				return true;
+			}
+		}
+		catch (ClassNotFoundException | SQLException e) {
+			System.out.println(e);
+			throw new BusinessException("Internal Error occured contact sysadmin");
+		}
 		return false;
 	}
-
 }

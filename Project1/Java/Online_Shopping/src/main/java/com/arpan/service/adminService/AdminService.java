@@ -5,5 +5,5 @@ import com.arpan.model.Admin;
 
 public interface AdminService {
 	public Admin adminLoginValidation(String uname,String pass) throws BusinessException;
-	public boolean changeOrderStatusToShipped() throws BusinessException;
+	public boolean changeOrderStatusToShipped(int orderId) throws BusinessException;
 }
