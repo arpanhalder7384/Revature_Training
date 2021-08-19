@@ -197,22 +197,22 @@ public class Main_Shopping {
 									break;
 								}
 								log.info("Available product details:\n");
-								System.out.printf("%-30s %-15s %-15s %-15s\n","Product Name","Price","Available","Product Type");
+								System.out.printf("%-5s %-30s %-15s %-15s %-15s\n","Product Id","Product Name","Price","Available","Product Type");
 								System.out.println("----------------------------------------------------------------------------");
 								for(Product p:productList)
 								{
 									p.getProductDetails();
 								}
 								log.info("\n");
-								log.info("Enter Product name from above table:");
-								String pname=sc.nextLine();
+								log.info("Enter Product Id from above table:");
+								int productId=Integer.parseInt(sc.nextLine());
 								log.info("Enter no of procuct you want to buy:");
 								int pQuantity=Integer.parseInt(sc.nextLine());
 								CartService cart=new CartServiceImpl();
 								Product product=null;
 								for(Product p:productList)
 								{
-									if(p.getProduct_name().equals(pname)) {
+									if(p.getProduct_id()==productId) {
 									product=p;}
 								}
 								boolean t=cart.addToCart(product,pQuantity,customer.getCus_id());
@@ -263,7 +263,6 @@ public class Main_Shopping {
 							try {
 								List<Product> productList=cart2.getCartDetails(customer);
 								for(Product product:productList) {
-									log.info(product.getProduct_id());
 									boolean t=orderService.placeOrder(customer.getCus_id(),product);
 									if(t==true)
 									{

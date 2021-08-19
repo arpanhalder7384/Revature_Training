@@ -73,7 +73,7 @@ public class Product {
 
 	public void getProductDetails()
 	{
-		System.out.printf("%-30s %-15.2f %-15d %-15s\n",this.product_name,this.product_price,this.product_count,this.product_type);
+		System.out.printf("%-5d %-30s %-15.2f %-15d %-15s\n",this.product_id,this.product_name,this.product_price,this.product_count,this.product_type);
 	}
 	public void getProductDetailsByCart()
 	{

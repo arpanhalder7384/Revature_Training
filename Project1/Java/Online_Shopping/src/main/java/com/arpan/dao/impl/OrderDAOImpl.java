@@ -32,6 +32,7 @@ public class OrderDAOImpl implements OrderDAO{
 			preparedStatement.setString(3, "Order Placed");		
 			
 			int c=preparedStatement.executeUpdate();
+			
 			if(c==1)
 			{
 				return true;

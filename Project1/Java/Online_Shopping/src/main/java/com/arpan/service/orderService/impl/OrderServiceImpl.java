@@ -25,8 +25,9 @@ public class OrderServiceImpl implements OrderService{
 
 	@Override
 	public boolean placeOrder(int customerId,Product product) throws BusinessException {
-		// TODO Auto-generated method stub
-		return false;
+		OrderDAO orderDAO=new OrderDAOImpl();
+		boolean t=orderDAO.placeOrder(customerId, product);
+		return t;
 	}
 
 }
