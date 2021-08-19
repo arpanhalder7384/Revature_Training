@@ -24,4 +24,11 @@ public class AdminServiceImpl implements AdminService{
 		}
 		return adminNew;
 	}
+
+	@Override
+	public boolean changeOrderStatusToShipped() throws BusinessException {
+		AdminDAO adminDAO=new AdminDAOImpl();
+		boolean b =adminDAO.changeOrderStatusToShipped();
+		return b;
+	}
 }

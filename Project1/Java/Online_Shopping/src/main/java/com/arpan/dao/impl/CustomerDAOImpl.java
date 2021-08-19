@@ -55,7 +55,7 @@ public class CustomerDAOImpl implements CustomerDAO{
 			preparedStatement.setString(1,customer.getEmail_id());
 			preparedStatement.setString(2, customer.getName());
 			preparedStatement.setString(3,customer.getPassword());
-			preparedStatement.setDouble(4, customer.getContact());
+			preparedStatement.setLong(4, customer.getContact());
 			
 			int c=preparedStatement.executeUpdate();
 			if(c==1)

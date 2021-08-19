@@ -17,6 +17,7 @@ import com.arpan.model.Product;
 
 public class CartDAOImpl implements CartDAO{
 	private static Logger log = Logger.getLogger(CartDAOImpl.class);
+	
 	@Override
 	public boolean addToCart(Product product, int product_quantity, int customer_id) throws BusinessException {
 		boolean t= false;

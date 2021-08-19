@@ -8,6 +8,7 @@ import com.arpan.exception.BusinessException;
 import com.arpan.model.Admin;
 import com.arpan.model.Customer;
 import com.arpan.model.Product;
+import com.arpan.model.Ordered;
 
 import com.arpan.service.adminService.AdminService;
 import com.arpan.service.adminService.impl.AdminServiceImpl;
@@ -69,13 +70,13 @@ public class Main_Shopping {
 						log.info("-\t2)Change existing product details");
 						log.info("-\t3)Check new Orders and change status");
 						log.info("-\t4)Details of all available Product");
-						log.info("-\t5)Search Customer By Various Fields:");
+						log.info("-\t5)Search Customer By Various Fields");
 						log.info("-\t6)Update contact No.");
 						log.info("-\t7)Change Password");
 						log.info("-\t8)Logout");
 						log.info("---------------------------------------------");
 						log.info("*********************************************");
-						log.info("Please enter your choice(1-7)");
+						log.info("Please enter your choice(1-8)");
 						try {
 							option = Integer.parseInt(sc.nextLine());
 						} 
@@ -109,7 +110,35 @@ public class Main_Shopping {
 							log.info("Under Construstion");
 							break;
 						case 3:
-							log.info("Under Construstion");
+							try {
+								OrderService orderService=new OrderServiceImpl();
+								int n=orderService.noOfNewPlacedOrder();
+								if(n!=0)
+								{
+									List<Ordered> orderedList=null;
+									System.out.printf("%-15s %-25s %-15s %-18s %-20s\n", "Order_Id", "Product_Name", "Produt_Quantity","Price","Order_Status");
+									System.out.println("------------------------------------------------------------------"
+											+ "-------------------------");
+									orderedList=orderService.getAllNewPlacedOrder();
+									
+									for(Ordered ordered:orderedList)
+									{
+										ordered.getOrderDetails();
+									}
+									log.info("\n");
+//								log.info("\nNo of new placed order: "+n+"\n");
+////								boolean b=adminService.changeOrderStatusToShipped();
+////								if(b==false)
+////								{
+////									log.info("\n All orders are shipped.\n");
+//									}
+								}
+								else {
+									log.info("\nNo new order placed\n");
+								}
+							} catch (BusinessException e1) {
+								log.error(e1);
+							}
 							break;
 						case 4:
 							ProductService productService=new ProductServiceImpl();
@@ -141,7 +170,7 @@ public class Main_Shopping {
 							log.info("\nLogout!! Back to Main Page\n");
 							break;
 						default:
-							log.info("Enter a valid number between 1 to 6. Please try again:\\n");
+							log.info("Enter a valid number between 1 to 8. Please try again:\\n");
 							break;
 						}
 					}
@@ -172,13 +201,12 @@ public class Main_Shopping {
 						log.info("-\t2)Go to Cart");
 						log.info("-\t3)Remove item from Cart");
 						log.info("-\t4)Place Order");
-						log.info("-\t5)Check your order status");
+						log.info("-\t5)Check your ordered status");
 						log.info("-\t6)Change received order status");
-						log.info("-\t7)Preavious order details");
-						log.info("-\t8)Update contact No.");
-						log.info("-\t9)Change Password");
-						log.info("-\t10)Logout");
-						log.info("-\tPlease enter your choice between(1-6)");
+						log.info("-\t7)Update contact No.");
+						log.info("-\t8)Change Password");
+						log.info("-\t9)Logout");
+						log.info("-\tPlease enter your choice between(1-9)");
 						log.info("----------------------------------------------");
 						log.info("**********************************************");
 						try {
@@ -247,9 +275,13 @@ public class Main_Shopping {
 										p.getProductDetailsByCart();
 										total+=p.getProduct_price();
 									}
-									log.info("\n\tTotal Price of all items in your car is: "+total);
+									log.info("\n\tTotal Price of all items in your car is: "+total+"\n");
 								}
-							} catch (BusinessException e) {
+							}catch(NumberFormatException e) 
+							{
+								
+							}
+							catch (BusinessException e) {
 								
 								e.printStackTrace();
 							}
@@ -279,7 +311,26 @@ public class Main_Shopping {
 							
 							break;
 						case 5:
-							log.info("Under Construstion");
+//							Check your order status
+							try {
+								OrderService orderService3=new OrderServiceImpl();
+								List<Ordered> orderedList=orderService3.getOrderDetails(customer);
+								if(orderedList==null)
+								{
+									log.info("\nYou have not placed any order\n");
+								}
+								System.out.printf("%-15s %-25s %-15s %-18s %-20s\n", "Order_Id", "Product_Name", "Produt_Quantity","Price","Order_Status");
+								System.out.println("------------------------------------------------------------------"
+										+ "-------------------------");
+								for(Ordered ordered:orderedList)
+								{
+									ordered.getOrderDetails();
+								}
+								log.info("\n");
+							} catch (BusinessException e) {
+								// TODO Auto-generated catch block
+								e.printStackTrace();
+							}
 							break;
 						case 6:
 							log.info("Under Construstion");
@@ -291,17 +342,14 @@ public class Main_Shopping {
 							log.info("Under Construstion");
 							break;
 						case 9:
-							log.info("Under Construstion");
-							break;
-						case 10:
 							log.info("nLogout!! Back to Main Page\\n");
 							break;
 						default:
-							log.info("Enter a valid number between 1 to 7. Please try again:\\n");
+							log.info("Enter a valid number between 1 to 9. Please try again:\\n");
 							break;
 						}						
 					}
-					while(option!=10);
+					while(option!=9);
 				}
 				break;
 			case 3:

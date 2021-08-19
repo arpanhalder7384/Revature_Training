@@ -60,9 +60,9 @@ public class AdminDAOImpl implements AdminDAO{
 		return false;
 	}
 	@Override
-	public List<Product> changeOrderStatusToShipped() throws BusinessException {
-		// TODO Auto-generated method stub
-		return null;
+	public boolean changeOrderStatusToShipped() throws BusinessException {
+		
+		return false;
 	}
 
 }

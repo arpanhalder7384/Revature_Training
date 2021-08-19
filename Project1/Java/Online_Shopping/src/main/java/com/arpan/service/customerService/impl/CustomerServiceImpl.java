@@ -27,7 +27,7 @@ public class CustomerServiceImpl implements CustomerService{
 	public Customer createNewCustomer(Customer customer) throws BusinessException {
 		CustomerDAO customerDAO=new CustomerDAOImpl();
 		Customer customernew=null;
-		customernew=customerDAO.createNewCustomer(customernew);
+		customernew=customerDAO.createNewCustomer(customer);
 		return customernew;
 	}
 
