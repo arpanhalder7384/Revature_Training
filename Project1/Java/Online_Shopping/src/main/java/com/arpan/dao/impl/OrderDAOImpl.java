@@ -154,6 +154,54 @@ public class OrderDAOImpl implements OrderDAO{
 		}
 	}
 
+	@Override
+	public int noOfShippedOrder() throws BusinessException {
+		try (Connection connection = MySqlDbConnectionClass.getConnection()) {
+			String sql="select count(*) count from ordered where status=\"Order Shipped\"";
+			PreparedStatement preparedStatement=connection.prepareStatement(sql);
+			ResultSet resultSet=preparedStatement.executeQuery();
+			int no=0;
+			if(resultSet.next())
+			{
+				no=resultSet.getInt("count");
+			}
+			return no;
+		}
+		catch (ClassNotFoundException | SQLException e) {
+			System.out.println(e);
+			throw new BusinessException("Internal Error occured contact to Admin");
+		}
+	}
+
+	@Override
+	public List<Ordered> getAllShippedOrderDetails() throws BusinessException {
+		List<Ordered> orderedList=new ArrayList<>();
+		try (Connection connection = MySqlDbConnectionClass.getConnection()) {
+			String sql="select  order_id,product_name,o.product_count, product_price, status from ordered o join product p where status=\"Order Shipped\" and o.product_id=p.product_id";
+			PreparedStatement preparedStatement=connection.prepareStatement(sql);
+			ResultSet resultSet=preparedStatement.executeQuery();
+			while(resultSet.next())
+			{
+				Ordered ordered=new Ordered();
+				ordered.setOrder_id(resultSet.getInt("order_id"));
+				ordered.setProductName(resultSet.getString("product_name"));
+				ordered.setProduct_count(resultSet.getInt("product_count"));
+				ordered.setPrice(resultSet.getDouble("product_price")*resultSet.getInt("product_count"));
+				ordered.setStatus(resultSet.getString("status"));
+				orderedList.add(ordered);
+			}
+			if(orderedList.size()==0)
+			{
+				return null;
+			}
+			return orderedList;
+		}
+		catch (ClassNotFoundException | SQLException e) {
+			System.out.println(e);
+			throw new BusinessException("Internal Error occured contact sysadmin");
+		}
+	}
+
 	
 
 }

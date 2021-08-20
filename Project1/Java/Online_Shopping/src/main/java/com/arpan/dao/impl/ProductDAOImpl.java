@@ -54,11 +54,11 @@ public class ProductDAOImpl implements  ProductDAO{
 		return product;
 	}
 
-	@Override
-	public Product getProductDetails() throws BusinessException {
-		// TODO Auto-generated method stub
-		return null;
-	}
+//	@Override
+//	public Product getProductDetails() throws BusinessException {
+//		// TODO Auto-generated method stub
+//		return null;
+//	}
 
 	@Override
 	public List<Product> getAllProduct() throws BusinessException {

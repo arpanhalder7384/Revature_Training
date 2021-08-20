@@ -8,6 +8,8 @@ import com.arpan.model.Ordered;
 import com.arpan.exception.BusinessException;
 
 public interface OrderDAO {
+	public int noOfShippedOrder() throws BusinessException;
+	public List<Ordered> getAllShippedOrderDetails() throws BusinessException;
 	public int noOfNewPlacedOrder() throws BusinessException;
 	public List<Ordered> getAllNewPlacedOrder() throws BusinessException;
 	public boolean placeOrder(int customerId,Product product) throws BusinessException;

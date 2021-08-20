@@ -11,7 +11,7 @@ import com.arpan.service.productService.impl.ProductServiceImpl;
 
 public interface ProductDAO {
 	public Product addNewProduct(Product product) throws BusinessException;
-	public Product getProductDetails() throws BusinessException;
+	//public Product getProductDetails() throws BusinessException;
 	public List<Product> getAllProduct() throws BusinessException;
 	public int addExistingProduct() throws BusinessException;
 }

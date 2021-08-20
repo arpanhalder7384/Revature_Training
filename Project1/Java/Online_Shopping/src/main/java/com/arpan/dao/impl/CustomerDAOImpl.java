@@ -98,4 +98,24 @@ public class CustomerDAOImpl implements CustomerDAO{
 		// TODO Auto-generated method stub
 		return null;
 	}
+
+	@Override
+	public boolean changeOrderStatusToReceived(int orderId) throws BusinessException {
+		try (Connection connection = MySqlDbConnectionClass.getConnection()) {
+			String sql="update ordered set status=\"Order Received\" where order_id=?";
+			PreparedStatement preparedStatement=connection.prepareStatement(sql);
+			preparedStatement.setInt(1,orderId);
+			int c=preparedStatement.executeUpdate();
+			if(c>0)
+			{
+				log.info("OrderID: "+orderId+ " is Received");
+				return true;
+			}
+		}
+		catch (ClassNotFoundException | SQLException e) {
+			System.out.println(e);
+			throw new BusinessException("Internal Error occured contact sysadmin");
+		}
+		return false;
+	}
 }

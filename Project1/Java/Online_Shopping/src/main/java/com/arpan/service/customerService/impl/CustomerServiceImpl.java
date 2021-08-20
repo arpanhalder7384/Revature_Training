@@ -2,7 +2,9 @@ package com.arpan.service.customerService.impl;
 
 import org.apache.log4j.Logger;
 
+import com.arpan.dao.AdminDAO;
 import com.arpan.dao.CustomerDAO;
+import com.arpan.dao.impl.AdminDAOImpl;
 import com.arpan.dao.impl.CustomerDAOImpl;
 import com.arpan.exception.BusinessException;
 import com.arpan.model.Admin;
@@ -29,6 +31,12 @@ public class CustomerServiceImpl implements CustomerService{
 		Customer customernew=null;
 		customernew=customerDAO.createNewCustomer(customer);
 		return customernew;
+	}
+	@Override
+	public boolean changeOrderStatusToReceived(int orderId) throws BusinessException {
+		CustomerDAO customerDAO=new CustomerDAOImpl();
+		boolean b =customerDAO.changeOrderStatusToReceived(orderId);
+		return b;
 	}
 
 }

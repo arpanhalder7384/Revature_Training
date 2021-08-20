@@ -14,4 +14,5 @@ public interface CustomerDAO {
 	public Customer getCustomerDetails(String email_id) throws BusinessException;
 	public boolean changeContact(String email_id,Long contact) throws BusinessException;
 	public List<Product> changeOrderStatusToReceived() throws BusinessException;
+	public boolean changeOrderStatusToReceived(int orderId) throws BusinessException;
 }

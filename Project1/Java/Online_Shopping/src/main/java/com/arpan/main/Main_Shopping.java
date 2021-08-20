@@ -116,8 +116,8 @@ public class Main_Shopping {
 								if(n!=0)
 								{
 									List<Ordered> orderedList=null;
-									System.out.printf("%-15s %-25s %-15s %-18s %-20s\n", "Order_Id", "Product_Name", "Produt_Quantity","Price","Order_Status");
-									System.out.println("------------------------------------------------------------------"
+									log.info("Order_Id        Product_Name              Produt_Quantity Price              Order_Status\n");
+									log.info("------------------------------------------------------------------"
 											+ "-------------------------");
 									orderedList=orderService.getAllNewPlacedOrder();
 									
@@ -126,9 +126,14 @@ public class Main_Shopping {
 										ordered.getOrderDetails();
 									}
 									log.info("\n");
-									log.info("Enter order id to make the order shipped:");
-									
-									int orderID=Integer.parseInt(sc.nextLine());
+									log.info("Enter order id to make the order shipped or enter false to go previous menu:");
+									String s=sc.nextLine();
+									if(s.equals("false"))
+									{
+										log.info("\nBack to Previous Menu\n");
+										break;
+									}
+									int orderID=Integer.parseInt(s);
 									boolean b=adminService.changeOrderStatusToShipped(orderID);
 								}
 								else {
@@ -146,9 +151,14 @@ public class Main_Shopping {
 							ProductService productService=new ProductServiceImpl();
 							try {
 								List<Product> productList=productService.getAllProduct();
+								if(productList==null)
+								{
+									log.info("\nNo Available Product!!!!!PLEASE ADD SOME PRODUCT!!!!!\n");
+									break;
+								}
 								log.info("Available product details:\n");
-								System.out.printf("%-30s %-15s %-15s %-15s\n","Product Name","Price","Available","Product Type");
-								System.out.println("----------------------------------------------------------------------------");
+								log.info("Product Name                   Price           Available       Product Type");
+								log.info("----------------------------------------------------------------------------");
 								for(Product p:productList)
 								{
 									p.getProductDetails();
@@ -204,7 +214,7 @@ public class Main_Shopping {
 						log.info("-\t3)Remove item from Cart");
 						log.info("-\t4)Place Order");
 						log.info("-\t5)Check your ordered status");
-						log.info("-\t6)Change received order status");
+						log.info("-\t6)Make order status to received");
 						log.info("-\t7)Update contact No.");
 						log.info("-\t8)Change Password");
 						log.info("-\t9)Logout");
@@ -227,8 +237,8 @@ public class Main_Shopping {
 									break;
 								}
 								log.info("Available product details:\n");
-								System.out.printf("%-5s %-30s %-15s %-15s %-15s\n","Product Id","Product Name","Price","Available","Product Type");
-								System.out.println("----------------------------------------------------------------------------");
+								log.info("Product_ID Product_Name                   Price           Available       Product Type");
+								log.info("----------------------------------------------------------------------------");
 								for(Product p:productList)
 								{
 									p.getProductDetails();
@@ -269,8 +279,8 @@ public class Main_Shopping {
 								}
 								else {
 									log.info("Available product in your cart:\n");
-									System.out.printf("%-8s %-20s %-15s %-15s\n","CartID","Product Name","No. of Item","Price");
-									System.out.println("----------------------------------------------------------");
+									log.info("Cart_ID  Product_Name         No. of Item     Price");
+									log.info("----------------------------------------------------");
 									double total=0.0;
 									for(Product p:productList)
 									{
@@ -292,6 +302,7 @@ public class Main_Shopping {
 							log.info("Under Construstion");
 							break;
 						case 4:
+//							Place Order
 							CartService cart2=new CartServiceImpl();
 							OrderService orderService =new OrderServiceImpl();
 							try {
@@ -326,9 +337,8 @@ public class Main_Shopping {
 									log.info("\nYou have not placed any order\n");
 									break;
 								}
-								System.out.printf("%-15s %-25s %-15s %-18s %-20s\n", "Order_Id", "Product_Name", "Produt_Quantity","Price","Order_Status");
-								System.out.println("------------------------------------------------------------------"
-										+ "-------------------------");
+								log.info("Order_ID        Product_Name              Product_Quantit Price              Order_Ststus");
+								log.info("------------------------------------------------------------------------------------------");
 								for(Ordered ordered:orderedList)
 								{
 									ordered.getOrderDetails();
@@ -340,7 +350,41 @@ public class Main_Shopping {
 							}
 							break;
 						case 6:
-							log.info("Under Construstion");
+							try {
+								OrderService orderService4=new OrderServiceImpl();
+								int n=orderService4.noOfShippedOrder();
+								if(n!=0)
+								{
+									List<Ordered> orderedList=null;
+									log.info("Order_ID        Product_Name              Product_Quantit Price              Order_Ststus");
+									log.info("------------------------------------------------------------------------------------------");
+									orderedList=orderService4.getAllShippedOrderDetails();
+									
+									for(Ordered ordered:orderedList)
+									{
+										ordered.getOrderDetails();
+									}
+									log.info("\n");
+									log.info("Enter order id to make the order as Received or enter false to go previous menu:");
+									String s=sc.nextLine();
+									if(s.equals("fasle"))
+									{
+										log.info("\nBack to previous menu\n");
+										break;
+									}
+									int orderId=Integer.parseInt(s);
+									boolean b=customerService.changeOrderStatusToReceived(orderId);
+								}
+								else {
+									log.info("\nNo new order Shipped\n");
+								}
+							}catch(NumberFormatException e)
+							{
+								log.error(e.getMessage());
+							}
+							catch (BusinessException e1) {
+								log.error(e1.getMessage());
+							}
 							break;
 						case 7:
 							log.info("Under Construstion");

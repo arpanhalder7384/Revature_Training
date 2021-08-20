@@ -47,4 +47,18 @@ public class OrderServiceImpl implements OrderService{
 		return orderedList;
 	}
 
+	@Override
+	public int noOfShippedOrder() throws BusinessException {
+		OrderDAO orderDAO=new OrderDAOImpl();
+		int no=orderDAO.noOfShippedOrder();
+		return no;
+	}
+
+	@Override
+	public List<Ordered> getAllShippedOrderDetails() throws BusinessException {
+		OrderDAO orderDAO=new OrderDAOImpl();
+		List<Ordered> orderedList=orderDAO.getAllShippedOrderDetails();
+		return orderedList;
+	}
+
 }
