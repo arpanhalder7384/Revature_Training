@@ -9637,3 +9637,7 @@ Logout!! Back to Main Page
 [main] 2021-08-20 13:45:22 INFO  com.arpan.main.Main_Shopping  - ***********************************
 [main] 2021-08-20 13:45:22 INFO  com.arpan.main.Main_Shopping  - Please enter your choice(1-4):
 [main] 2021-08-20 13:45:24 INFO  com.arpan.main.Main_Shopping  - Thank You!! Visit Again!!
+[main] 2021-08-20 13:48:41 INFO  com.arpan.dao.impl.AdminDAOImpl  - OrderID: 901 is shipped
+[main] 2021-08-20 13:48:41 INFO  com.arpan.service.adminService.impl.AdminServiceImpl  - Invalid Username:test2
+
+[main] 2021-08-20 13:51:55 INFO  com.arpan.service.cartService.impl.CartServiceImpl  - product quantity is not Zero or negative

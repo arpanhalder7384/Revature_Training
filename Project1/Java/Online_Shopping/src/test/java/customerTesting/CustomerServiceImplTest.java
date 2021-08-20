@@ -46,7 +46,7 @@ class CustomerServiceImplTest {
 	}
 	
 	@Test
-	void testCustomerLoginValidation2() {
+	void testCustomerLoginValidationEmailIdVerification1() {
 		CustomerService customerService=new CustomerServiceImpl();
 		try {
 			assertNotNull(customerService.customerLoginValidation("test2@gmail.com","test"));
@@ -58,7 +58,7 @@ class CustomerServiceImplTest {
 	}
 	
 	@Test
-	void testCustomerLoginValidation3() {
+	void testCustomerLoginValidationEmailIdVerification2() {
 		CustomerService customerService=new CustomerServiceImpl();
 		try {
 			assertNull(customerService.customerLoginValidation("test","test"));

@@ -44,6 +44,18 @@ class CartServiceImplTest {
 			e.printStackTrace();
 		}
 	}
+	
+	@Test
+	void testAddToCartIfQuantityZero() {
+		CartService cartService=new CartServiceImpl();
+		Product product=new Product(1,"Samsung M31",17000.00,2,"Mobile");
+		try {
+			assertFalse(cartService.addToCart(product, 0, 9010), "Product Added Successfully");
+		} catch (BusinessException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
 
 	@Test
 	void testRomoveItemFromCart() {

@@ -71,7 +71,7 @@ class AdminServiceImplTest {
 	void testChangeOrderStatusToShipped() {
 		AdminService adminService=new AdminServiceImpl();
 		try {
-			assertTrue(adminService.changeOrderStatusToShipped(900));
+			assertTrue(adminService.changeOrderStatusToShipped(901));
 		} catch (BusinessException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
