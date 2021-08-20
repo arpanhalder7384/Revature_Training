@@ -26,6 +26,17 @@ public class Product {
 		this.product_count = product_count;
 	}
 	
+	public Product( int product_id, String product_name, Double product_price, int product_count,
+			String product_type) {
+		super();
+		this.serialno = serialno;
+		this.product_id = product_id;
+		this.product_name = product_name;
+		this.product_price = product_price;
+		this.product_count = product_count;
+		this.product_type = product_type;
+	}
+
 	public int getSerialno() {
 		return serialno;
 	}

@@ -62,7 +62,7 @@ public class AdminDAOImpl implements AdminDAO{
 	@Override
 	public boolean changeOrderStatusToShipped(int orderId) throws BusinessException {
 		try (Connection connection = MySqlDbConnectionClass.getConnection()) {
-			String sql="update ordered set status=\"Order Shipped\" where order_id=?";
+			String sql="update ordered set status=\"Order Shipped\" where order_id=? and status=\"Order Placed\"";
 			PreparedStatement preparedStatement=connection.prepareStatement(sql);
 			preparedStatement.setInt(1,orderId);
 			int c=preparedStatement.executeUpdate();

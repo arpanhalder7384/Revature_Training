@@ -116,11 +116,15 @@ public class Main_Shopping {
 								if(n!=0)
 								{
 									List<Ordered> orderedList=null;
+									orderedList=orderService.getAllNewPlacedOrder();
+									if(orderedList==null)
+									{
+										log.info("\nNo new order placed\n");
+										break;
+									}
 									log.info("Order_Id        Product_Name              Produt_Quantity Price              Order_Status\n");
 									log.info("------------------------------------------------------------------"
 											+ "-------------------------");
-									orderedList=orderService.getAllNewPlacedOrder();
-									
 									for(Ordered ordered:orderedList)
 									{
 										ordered.getOrderDetails();
