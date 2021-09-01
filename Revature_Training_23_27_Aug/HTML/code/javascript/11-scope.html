@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Module - JavaScript</title>
+    </head>
+    <body>
+        
+        <script type="module">
+            var y=10; // global scope
+            function sampleFunction(){
+                var x=20;
+                console.log(x); //function scope
+            }
+
+            sampleFunction();
+
+            var z=10;
+            console.log(z);
+
+            var z=20;
+            console.log(z);
+
+            let a=100;
+            console.log(a);
+
+            a=233;
+            console.log(a);
+
+            {
+                let a=110; // block scope
+                var v=90; // global scope
+                console.log(a);
+            }
+            console.log(a);
+            console.log(v);
+            var mySample = new Array(10,5);
+            console.log(mySample);
+        </script>
+    </body>
+</html>

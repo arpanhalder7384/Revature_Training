@@ -186,7 +186,7 @@ public class Main_Shopping {
 							log.info("\nLogout!! Back to Main Page\n");
 							break;
 						default:
-							log.info("Enter a valid number between 1 to 8. Please try again:\\n");
+							log.info("Enter a valid number between 1 to 8. Please try again:\n");
 							break;
 						}
 					}
@@ -248,6 +248,17 @@ public class Main_Shopping {
 									p.getProductDetails();
 								}
 								log.info("\n");
+								
+								//Modification start
+								log.info("\nYou Want to bye or not\t write \"NO\" to go previous Menu:");
+								String s=sc.nextLine();
+								if(s.equals("NO"))
+								{
+									log.info("\nWelcome to previous Menu:\n");
+									break;
+								}
+								//Modification end
+								
 								log.info("Enter Product Id from above table:");
 								int productId=Integer.parseInt(sc.nextLine());
 								log.info("Enter no of procuct you want to buy:");
