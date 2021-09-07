@@ -1,0 +1,17 @@
+sudo yum update -y
+
+sudo yum install -y docker
+
+sudo service docker start
+
+link for some docker cheatsheet:  https://dockerlabs.collabnix.com/docker/cheatsheet/
+
+sudo usermod -aG docker ec2-user
+
+FROM alpine:latest
+ADD HelloWorld.class HelloWorld.class
+RUN apk --update add openjdk8-jre
+ENTRYPOINT ["java", "-Djava.security.egd=file:/dev/./urandom", "HelloWorld"]
+
+
+
