@@ -1,4 +1,5 @@
 import { car } from "./car";
+import { MyServiceImpl } from "./serviceimpl";
 
 console.log("Hello and welcome to TS");
 
@@ -27,5 +28,6 @@ console.log(car1.getCar());
 
 console.log(car.iAmStatic());
 
-// let service=new Myse
-// service.hello1()
+let service=new MyServiceImpl();
+service.hello1();
+console.log(service.hello2);

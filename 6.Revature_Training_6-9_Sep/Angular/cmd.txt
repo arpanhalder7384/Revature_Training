@@ -1,0 +1,9 @@
+ng new my-first-angular-app
+
+cd my-first-angular-app
+
+ng serve
+
+ng s --o
+
+ng g c hello

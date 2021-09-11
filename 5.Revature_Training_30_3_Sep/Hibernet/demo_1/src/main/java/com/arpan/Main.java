@@ -25,8 +25,8 @@ public class Main {
 		
 		Session session =factory.openSession();
 		Transaction transaction=session.beginTransaction();
-//		Student s1=new Student("Arpan", 21, "arpahalder7384@gmail.com", "Karanjali");
-//		session.save(s1);
+		Student s1=new Student("Arpan", 21, "arpahalder7384@gmail.com", "Karanjali");
+		session.save(s1);
 		
 //		Student s=(Student) session.get(Student.class, 1);
 //		System.out.println(s);
@@ -58,14 +58,14 @@ public class Main {
 //			System.out.println(student);
 //		}
 		
-		
-		Query query=session.createQuery("from com.arpan.model.Student where city=:city");
-		query.setString("city", "Karanjali");
-		List<Student> studentList=query.list();
-		for(Student student:studentList) {
-			System.out.println(student);
-		}
-		
+//		
+//		Query query=session.createQuery("from com.arpan.model.Student where city=:city");
+//		query.setString("city", "Karanjali");
+//		List<Student> studentList=query.list();
+//		for(Student student:studentList) {
+//			System.out.println(student);
+//		}
+//		
 		transaction.commit();
 		session.close();
 		factory.close();

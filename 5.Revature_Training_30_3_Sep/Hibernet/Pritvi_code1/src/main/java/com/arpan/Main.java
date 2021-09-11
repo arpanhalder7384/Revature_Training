@@ -22,11 +22,11 @@ public class Main {
 		Session session =factory.openSession();
 		Transaction transaction=session.beginTransaction();	
 		
-//		Student s1=new Student("Arpan Halder");
-//		session.save(s1);
-//		
-//		Student s2=new Student("Sayan Halder");
-//		session.save(s2);
+		Student s1=new Student("Arpan Halder");
+		session.save(s1);
+		
+		Student s2=new Student("Sayan Halder");
+		session.save(s2);
 		
 		Query query=session.createQuery("from com.arpan.model.Student");
 		List<Student> studentList =query.list();
