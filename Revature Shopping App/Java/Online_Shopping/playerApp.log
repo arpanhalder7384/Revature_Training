@@ -9827,3 +9827,106 @@ Product is added to Cart
 [main] 2021-08-20 15:27:24 INFO  com.arpan.service.adminService.impl.AdminServiceImpl  - Invalid Username:test2
 
 [main] 2021-08-20 15:27:34 INFO  com.arpan.service.cartService.impl.CartServiceImpl  - product quantity is not Zero or negative
+[main] 2021-09-12 22:42:16 INFO  com.arpan.main.Main_Shopping  - 		--------------------------------------
+[main] 2021-09-12 22:42:16 INFO  com.arpan.main.Main_Shopping  - 		Welcome to Arpan's Online Shopping App
+[main] 2021-09-12 22:42:16 INFO  com.arpan.main.Main_Shopping  - 		--------------------------------------
+[main] 2021-09-12 22:42:16 INFO  com.arpan.main.Main_Shopping  - ***********************************
+[main] 2021-09-12 22:42:16 INFO  com.arpan.main.Main_Shopping  - -----------------------------------
+[main] 2021-09-12 22:42:16 INFO  com.arpan.main.Main_Shopping  - -	1)Login as Admin
+[main] 2021-09-12 22:42:16 INFO  com.arpan.main.Main_Shopping  - -	2)Login as Customer
+[main] 2021-09-12 22:42:16 INFO  com.arpan.main.Main_Shopping  - -	3)Register a new Customer
+[main] 2021-09-12 22:42:16 INFO  com.arpan.main.Main_Shopping  - -	4)EXIT
+[main] 2021-09-12 22:42:16 INFO  com.arpan.main.Main_Shopping  - -----------------------------------
+[main] 2021-09-12 22:42:16 INFO  com.arpan.main.Main_Shopping  - ***********************************
+[main] 2021-09-12 22:42:16 INFO  com.arpan.main.Main_Shopping  - Please enter your choice(1-4):
+[main] 2021-09-12 22:42:21 INFO  com.arpan.main.Main_Shopping  - Enter a valid number between 1 to 4. Please try again:
+
+[main] 2021-09-12 22:42:21 INFO  com.arpan.main.Main_Shopping  - ***********************************
+[main] 2021-09-12 22:42:21 INFO  com.arpan.main.Main_Shopping  - -----------------------------------
+[main] 2021-09-12 22:42:21 INFO  com.arpan.main.Main_Shopping  - -	1)Login as Admin
+[main] 2021-09-12 22:42:21 INFO  com.arpan.main.Main_Shopping  - -	2)Login as Customer
+[main] 2021-09-12 22:42:21 INFO  com.arpan.main.Main_Shopping  - -	3)Register a new Customer
+[main] 2021-09-12 22:42:21 INFO  com.arpan.main.Main_Shopping  - -	4)EXIT
+[main] 2021-09-12 22:42:21 INFO  com.arpan.main.Main_Shopping  - -----------------------------------
+[main] 2021-09-12 22:42:21 INFO  com.arpan.main.Main_Shopping  - ***********************************
+[main] 2021-09-12 22:42:21 INFO  com.arpan.main.Main_Shopping  - Please enter your choice(1-4):
+[main] 2021-09-12 22:42:23 INFO  com.arpan.main.Main_Shopping  - Enter Username:
+[main] 2021-09-12 22:42:44 INFO  com.arpan.main.Main_Shopping  - Enter Password:
+[main] 2021-09-12 22:42:51 INFO  com.arpan.main.Main_Shopping  - 
+!!Welcome!! Arpan Halder !! You are an Admin
+
+[main] 2021-09-12 22:42:51 INFO  com.arpan.main.Main_Shopping  - *********************************************
+[main] 2021-09-12 22:42:51 INFO  com.arpan.main.Main_Shopping  - ---------------------------------------------
+[main] 2021-09-12 22:42:51 INFO  com.arpan.main.Main_Shopping  - -	1)Add New Product
+[main] 2021-09-12 22:42:51 INFO  com.arpan.main.Main_Shopping  - -	2)Change existing product details
+[main] 2021-09-12 22:42:51 INFO  com.arpan.main.Main_Shopping  - -	3)Check new Orders and change status
+[main] 2021-09-12 22:42:51 INFO  com.arpan.main.Main_Shopping  - -	4)Details of all available Product
+[main] 2021-09-12 22:42:51 INFO  com.arpan.main.Main_Shopping  - -	5)Search Customer By Various Fields
+[main] 2021-09-12 22:42:51 INFO  com.arpan.main.Main_Shopping  - -	6)Update contact No.
+[main] 2021-09-12 22:42:51 INFO  com.arpan.main.Main_Shopping  - -	7)Change Password
+[main] 2021-09-12 22:42:51 INFO  com.arpan.main.Main_Shopping  - -	8)Logout
+[main] 2021-09-12 22:42:51 INFO  com.arpan.main.Main_Shopping  - ---------------------------------------------
+[main] 2021-09-12 22:42:51 INFO  com.arpan.main.Main_Shopping  - *********************************************
+[main] 2021-09-12 22:42:51 INFO  com.arpan.main.Main_Shopping  - Please enter your choice(1-8)
+[main] 2021-09-12 22:42:59 INFO  com.arpan.main.Main_Shopping  - 
+No new order placed
+
+[main] 2021-09-12 22:42:59 INFO  com.arpan.main.Main_Shopping  - *********************************************
+[main] 2021-09-12 22:42:59 INFO  com.arpan.main.Main_Shopping  - ---------------------------------------------
+[main] 2021-09-12 22:42:59 INFO  com.arpan.main.Main_Shopping  - -	1)Add New Product
+[main] 2021-09-12 22:42:59 INFO  com.arpan.main.Main_Shopping  - -	2)Change existing product details
+[main] 2021-09-12 22:42:59 INFO  com.arpan.main.Main_Shopping  - -	3)Check new Orders and change status
+[main] 2021-09-12 22:42:59 INFO  com.arpan.main.Main_Shopping  - -	4)Details of all available Product
+[main] 2021-09-12 22:42:59 INFO  com.arpan.main.Main_Shopping  - -	5)Search Customer By Various Fields
+[main] 2021-09-12 22:42:59 INFO  com.arpan.main.Main_Shopping  - -	6)Update contact No.
+[main] 2021-09-12 22:42:59 INFO  com.arpan.main.Main_Shopping  - -	7)Change Password
+[main] 2021-09-12 22:42:59 INFO  com.arpan.main.Main_Shopping  - -	8)Logout
+[main] 2021-09-12 22:42:59 INFO  com.arpan.main.Main_Shopping  - ---------------------------------------------
+[main] 2021-09-12 22:42:59 INFO  com.arpan.main.Main_Shopping  - *********************************************
+[main] 2021-09-12 22:42:59 INFO  com.arpan.main.Main_Shopping  - Please enter your choice(1-8)
+[main] 2021-09-12 22:43:08 INFO  com.arpan.main.Main_Shopping  - Under Construstion
+[main] 2021-09-12 22:43:08 INFO  com.arpan.main.Main_Shopping  - *********************************************
+[main] 2021-09-12 22:43:08 INFO  com.arpan.main.Main_Shopping  - ---------------------------------------------
+[main] 2021-09-12 22:43:08 INFO  com.arpan.main.Main_Shopping  - -	1)Add New Product
+[main] 2021-09-12 22:43:08 INFO  com.arpan.main.Main_Shopping  - -	2)Change existing product details
+[main] 2021-09-12 22:43:08 INFO  com.arpan.main.Main_Shopping  - -	3)Check new Orders and change status
+[main] 2021-09-12 22:43:08 INFO  com.arpan.main.Main_Shopping  - -	4)Details of all available Product
+[main] 2021-09-12 22:43:08 INFO  com.arpan.main.Main_Shopping  - -	5)Search Customer By Various Fields
+[main] 2021-09-12 22:43:08 INFO  com.arpan.main.Main_Shopping  - -	6)Update contact No.
+[main] 2021-09-12 22:43:08 INFO  com.arpan.main.Main_Shopping  - -	7)Change Password
+[main] 2021-09-12 22:43:08 INFO  com.arpan.main.Main_Shopping  - -	8)Logout
+[main] 2021-09-12 22:43:08 INFO  com.arpan.main.Main_Shopping  - ---------------------------------------------
+[main] 2021-09-12 22:43:08 INFO  com.arpan.main.Main_Shopping  - *********************************************
+[main] 2021-09-12 22:43:08 INFO  com.arpan.main.Main_Shopping  - Please enter your choice(1-8)
+[main] 2021-09-12 22:43:17 INFO  com.arpan.main.Main_Shopping  - Available product details:
+
+[main] 2021-09-12 22:43:17 INFO  com.arpan.main.Main_Shopping  - Product Name                   Price           Available       Product Type
+[main] 2021-09-12 22:43:17 INFO  com.arpan.main.Main_Shopping  - ----------------------------------------------------------------------------
+[main] 2021-09-12 22:43:17 INFO  com.arpan.main.Main_Shopping  - 
+
+[main] 2021-09-12 22:43:17 INFO  com.arpan.main.Main_Shopping  - *********************************************
+[main] 2021-09-12 22:43:17 INFO  com.arpan.main.Main_Shopping  - ---------------------------------------------
+[main] 2021-09-12 22:43:17 INFO  com.arpan.main.Main_Shopping  - -	1)Add New Product
+[main] 2021-09-12 22:43:17 INFO  com.arpan.main.Main_Shopping  - -	2)Change existing product details
+[main] 2021-09-12 22:43:17 INFO  com.arpan.main.Main_Shopping  - -	3)Check new Orders and change status
+[main] 2021-09-12 22:43:17 INFO  com.arpan.main.Main_Shopping  - -	4)Details of all available Product
+[main] 2021-09-12 22:43:17 INFO  com.arpan.main.Main_Shopping  - -	5)Search Customer By Various Fields
+[main] 2021-09-12 22:43:17 INFO  com.arpan.main.Main_Shopping  - -	6)Update contact No.
+[main] 2021-09-12 22:43:17 INFO  com.arpan.main.Main_Shopping  - -	7)Change Password
+[main] 2021-09-12 22:43:17 INFO  com.arpan.main.Main_Shopping  - -	8)Logout
+[main] 2021-09-12 22:43:17 INFO  com.arpan.main.Main_Shopping  - ---------------------------------------------
+[main] 2021-09-12 22:43:17 INFO  com.arpan.main.Main_Shopping  - *********************************************
+[main] 2021-09-12 22:43:17 INFO  com.arpan.main.Main_Shopping  - Please enter your choice(1-8)
+[main] 2021-09-12 22:43:39 INFO  com.arpan.main.Main_Shopping  - 
+Logout!! Back to Main Page
+
+[main] 2021-09-12 22:43:39 INFO  com.arpan.main.Main_Shopping  - ***********************************
+[main] 2021-09-12 22:43:39 INFO  com.arpan.main.Main_Shopping  - -----------------------------------
+[main] 2021-09-12 22:43:39 INFO  com.arpan.main.Main_Shopping  - -	1)Login as Admin
+[main] 2021-09-12 22:43:39 INFO  com.arpan.main.Main_Shopping  - -	2)Login as Customer
+[main] 2021-09-12 22:43:39 INFO  com.arpan.main.Main_Shopping  - -	3)Register a new Customer
+[main] 2021-09-12 22:43:39 INFO  com.arpan.main.Main_Shopping  - -	4)EXIT
+[main] 2021-09-12 22:43:39 INFO  com.arpan.main.Main_Shopping  - -----------------------------------
+[main] 2021-09-12 22:43:39 INFO  com.arpan.main.Main_Shopping  - ***********************************
+[main] 2021-09-12 22:43:39 INFO  com.arpan.main.Main_Shopping  - Please enter your choice(1-4):
+[main] 2021-09-12 22:43:41 INFO  com.arpan.main.Main_Shopping  - Thank You!! Visit Again!!

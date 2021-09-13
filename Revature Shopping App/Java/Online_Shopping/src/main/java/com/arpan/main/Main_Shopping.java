@@ -43,7 +43,7 @@ public class Main_Shopping {
 
 			try {
 				ch = Integer.parseInt(sc.nextLine());
-			} 
+			}
 			catch (NumberFormatException e) {
 			}
 			switch (ch) {

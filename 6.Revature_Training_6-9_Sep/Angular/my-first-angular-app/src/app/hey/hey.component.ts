@@ -1,11 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-hey',
-  // templateUrl: './hey.component.html',
-  // styleUrls: ['./hey.component.css']
-  template:`<h1> {{message}}</h1>
-  <h2>I am in other Line</h2>`
+  selector: 'app_hey',
+   templateUrl: './hey.component.html',
+   styleUrls: ['./hey.component.css']
 })
 export class HeyComponent  {
 
