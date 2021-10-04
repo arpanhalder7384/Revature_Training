@@ -1,0 +1,21 @@
+<div class="jumbotron">
+  <h1 class="display-4">HttpClient % HttpClientModel with observables Demo</h1>
+  <p class="lead">Making </p>
+  <hr class="my-4">
+  <p>More info</p>
+  
+</div>
+
+<div class="container">
+  <button class="btn btn-primary" type="button" (click)="getAllGitUsers()">Get All GIT Users</button>
+</div>
+
+<div *ngIf="flag" class="container-fluid">
+  <h1>All Git Users List</h1>
+  <div *ngFor="let user of usersList" class="card">
+    <div class="card-body">
+      <h4 class="card-title">{{user.login}}</h4>
+      <p class="card-text">Body</p>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,10 @@
+<h2>Welcome to {{title}}</h2>
+
+<div>
+  <p appCustom *ngFor="let player of players" [ngClass]="{ 
+    'highlight':player.id===101
+  }">
+    Id:{{player.id}}
+    Name:{{player.name}}
+  </p>
+</div>

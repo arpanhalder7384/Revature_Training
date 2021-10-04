@@ -1,0 +1,21 @@
+<h2 style="text-decoration: underline;">Welcome to {{title}}</h2>
+
+<div>
+  <h1>Predefined Pipes</h1>
+  <p>Uppercase Pipe: {{title | uppercase}}</p>
+  <p>Lowercase Pipe: {{title | lowercase}}</p>
+  <p>Currency Pipe: {{price | currency:'INR'}}</p>
+  <p>Currency Pipe: {{price | currency:'USD'}}</p>
+  <p>Currency Pipe: {{price | currency:'EUR'}}</p>
+  <p>Slice Pipe: {{fruits | slice:0}}</p>
+  <p>Date without date pipe: {{curr_date}}</p>
+  <p>Date with date pipe: {{curr_date | date}}</p>
+  <p>Date with date pipe with formatting: {{curr_date | date:"dd-MMM-yyyy EEEE HH:mm:ss"}}</p>
+  <p>Percentage Pipe: {{num |percent:'2.2'}}</p>
+  <p>Json Pipe: {{ myjson|json}}</p>
+</div>
+
+<div>
+  <h1>Cistome Pipe Demo</h1>
+  <p>Fullname Customer Pipe demo: {{firstName| fullname:lastName}}</p>    <!-- argument1 |pipiename:argument2,argument3 -->
+</div>

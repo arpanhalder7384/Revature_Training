@@ -7,3 +7,5 @@ ng serve
 ng s --o
 
 ng g c hello
+
+ng g class Player

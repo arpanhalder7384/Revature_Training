@@ -1,1 +1,53 @@
-<h1>player works!</h1>
+<div *ngIf="flag" class="container-fluid">
+    <h3>Player Details</h3>
+    <!-- Id:{{player.id}}
+    <br>
+    Name:{{player.name}}
+    <br>
+    <img class="img-thumbnail" [src]="player.avatar"> -->
+   <table  class="table table-light">
+       <thead class="thead-light">
+           <tr>
+               <th>Id</th>
+               <th>Name</th>
+               <th>Country</th>
+               <th>Avatar</th>
+           </tr>
+       </thead>
+       <tbody>
+           <tr *ngFor="let p of playerList">
+                <td>{{p.id}}</td>
+                <td>{{p.name}}</td>
+                <td>{{p.country}}</td>
+                <td> <img class="img-thumbnail" [src]="p.avatar"></td>
+           </tr>
+       </tbody>
+   </table>
+    
+</div>
+
+<div class="container">
+    <h3>Enter Player Details:</h3>
+    <label >Enter ID:</label>
+    <br>
+   <input class="form-control" type="text" [(ngModel)]="player.id">
+   <br>
+   <label >Enter Name:</label>
+   <br>
+   <input class="form-control" type="text" [(ngModel)]="player.name">
+   <br>
+   <label >Enter Country:</label>
+   <br>
+   <input class="form-control" type="text" [(ngModel)]="player.country">
+   <br>
+   <label >Enter Player Image URL:</label>
+   <br>
+   <input class="form-control" type="text" [(ngModel)]="player.avatar">
+   <br>
+   <button class="btn btn-primary" type="button" (click)="addPlayer()">Save Player</button>
+</div>
+
+<div *ngIf="flag" class="container-fluid">
+    <br>
+    <button class="btn btn-danger" type="button" (click)="removeLastPlayer()">Remove Last Player</button>
+</div>
